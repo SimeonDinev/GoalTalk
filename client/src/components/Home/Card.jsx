@@ -5,7 +5,7 @@ function IntroCard() {
     <Card
       className="text-center"
       style={{
-        margin: "30px 200px",
+        margin: "48px 200px",
       }}
     >
       <Card.Header

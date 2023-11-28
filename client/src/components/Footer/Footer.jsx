@@ -5,7 +5,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white mt-5">
+    <footer className="bg-dark text-white ">
       <Container
         className="p-4"
         style={{
@@ -24,7 +24,10 @@ const Footer = () => {
             >
               Connect with Me
             </h5>
-            <ul className="list-unstyled d-flex justify-content-evenly ">
+            <ul
+              className="list-unstyled d-flex justify-content-evenly"
+              style={{ marginBottom: "0" }}
+            >
               <li>
                 <a
                   href="https://www.facebook.com"
