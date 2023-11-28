@@ -1,0 +1,12 @@
+.icon {
+  color: #343a40;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  padding: 8px;
+  transition: background-color 0.4s ease;
+}
+
+.icon:hover {
+  background-color: #343a40;
+  color: whitesmoke;
+}

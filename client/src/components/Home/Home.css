@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: Bitter, "Times New Roman", Times, serif;
+}
+
+.background-container {
+  color: rgb(238, 238, 238);
+  max-width: 100%;
+  width: 100%;
+}
+
+#home-register-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/football-grass-background.jpg");
+  height: 682px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  font-family: Bitter, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 50px;
+  letter-spacing: 1px;
+
+  padding: 0;
+}
+#home-register-container {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#home-btn-register {
+  margin-top: 35px;
+  background-color: rgba(0, 0, 0, 0.25);
+  font-family: Bitter, "Times New Roman", Times, serif;
+  border: whitesmoke solid 2px;
+  padding: 10px 70px;
+  border: 3px solid whitesmoke;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+#home-btn-register:hover {
+  background-color: whitesmoke;
+  color: green;
+  border-color: whitesmoke;
+}
+#home-btn-register:active {
+  background-color: rgb(210, 210, 210);
+}
+
+.dots {
+  position: relative;
+  display: inline-block;
+
+  font-weight: bolder;
+  font-size: 60px;
+  color: rgb(200, 200, 200);
+}
+
+.dots::before {
+  content: "  • • •  ";
+  opacity: 0;
+  animation: dotAnimation 7s ease-in-out infinite;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+@keyframes dotAnimation {
+  0%,
+  20%,
+  80% {
+    opacity: 0.1;
+  }
+  20%,
+  80% {
+    opacity: 1;
+  }
+  0%,
+  100% {
+    opacity: 0.1;
+  }
+}
+
+.goal-talk {
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(240, 240, 240);
+}
+.highlight {
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(210, 210, 210);
+}
