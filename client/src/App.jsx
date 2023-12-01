@@ -6,6 +6,8 @@ import Navigation from "./components/navigation/Navigation";
 import Home from "./components/home/Home";
 import Clubs from "./components/clubs/Clubs";
 import FamousPlayers from "./components/famous-players/FamousPlayers";
+import News from "./components/news/News";
+import Posts from "./components/posts/Posts";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/clubs" element={<Clubs />} />
         <Route path="/famous-players" element={<FamousPlayers />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/posts" element={<Posts />} />
       </Routes>
 
       <Footer />
