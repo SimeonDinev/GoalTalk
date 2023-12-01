@@ -1,8 +1,11 @@
 import { Routes, Route } from "react-router-dom";
+
+import Footer from "./components/footer/Footer";
 import Navigation from "./components/Navigation/Navigation";
-import Home from "./components/Home/Home";
-import Footer from "./components/Footer/Footer";
-import Clubs from "./components/Clubs/Clubs";
+
+import Home from "./components/home/Home";
+import Clubs from "./components/clubs/Clubs";
+import FamousPlayers from "./components/famous-players/FamousPlayers";
 
 function App() {
   return (
@@ -12,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/clubs" element={<Clubs />} />
+        <Route path="/famous-players" element={<FamousPlayers />} />
       </Routes>
 
       <Footer />
