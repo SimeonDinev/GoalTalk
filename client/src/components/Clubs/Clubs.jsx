@@ -19,48 +19,63 @@ function Clubs() {
 
   return (
     <Container fluid>
-      <Row
-        xs={1}
-        md={5}
-        className="g-4"
-        style={{
-          padding: "40px",
-          display: "flex",
-          justifyContent: "center",
-          gap: "50px",
-          flexWrap: "wrap",
-          flex: " 0 0 calc(33.333% - 20px)",
-          margin: "10px",
-        }}
-      >
+      <Row xs={1} md={2} className="g-6" style={{ padding: "40px" }}>
         {state.map((x) => (
           <Col key={x._id} style={{ padding: "15px" }}>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img
-                src={x.imageUrl}
+            <Card>
+              <Card.Body
                 style={{
-                  height: "115px",
-                  width: "115px",
-                  alignSelf: "center",
-                  margin: "10px",
+                  display: "flex",
+                  justifyContent: "center",
+                  flexDirection: "column",
                 }}
-              />
-              <Card.Body>
+              >
+                <Card.Img
+                  src={x.imageUrl}
+                  style={{
+                    height: "100px",
+                    width: "100px",
+                    alignSelf: "center",
+                    marginBottom: "20px",
+                  }}
+                />
                 <Card.Title
                   style={{ textAlign: "center", paddingBottom: "20px" }}
                 >
                   {x.clubName}
                 </Card.Title>
-                <Card.Text>
-                  <span style={{ fontWeight: "bold" }}>Founded</span>:{" "}
-                  {x.founded} <br />
-                  <span style={{ fontWeight: "bold" }}>League</span>: {x.league}{" "}
-                  <br />
-                  <span style={{ fontWeight: "bold" }}>Stadium</span>:{" "}
-                  {x.stadium} <br />
-                </Card.Text>
-                <Button variant="primary" style={{ textAlign: "center" }}>
-                  Go somewhere
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-evenly",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <Card.Text>
+                    <span style={{ fontWeight: "bold" }}>Founded</span>:{" "}
+                    {x.founded} <br />
+                    <span style={{ fontWeight: "bold" }}>League</span>:{" "}
+                    {x.league} <br />
+                    <span style={{ fontWeight: "bold" }}>Stadium</span>:{" "}
+                    {x.stadium} <br />
+                  </Card.Text>
+                  <Card.Text>
+                    <span style={{ fontWeight: "bold" }}>Founded</span>:{" "}
+                    {x.founded} <br />
+                    <span style={{ fontWeight: "bold" }}>League</span>:{" "}
+                    {x.league} <br />
+                    <span style={{ fontWeight: "bold" }}>Stadium</span>:{" "}
+                    {x.stadium} <br />
+                  </Card.Text>
+                </div>
+                <Button
+                  variant="primary"
+                  style={{
+                    width: "30%",
+                    alignSelf: "center",
+                  }}
+                >
+                  Read More...
                 </Button>
               </Card.Body>
             </Card>
@@ -72,3 +87,23 @@ function Clubs() {
 }
 
 export default Clubs;
+{
+  /* <Col key={idx} style={{ padding: "15px" }}>
+            <Card>
+              <Card.Body>
+                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Title>Barcelona</Card.Title>
+                <Card.Text>
+                  FC Barcelona, founded in 1899, is a football giant based in
+                  Catalonia, Spain. Known for its iconic style of play and
+                  global success, Barcelona has become synonymous with
+                  excellence. From the historic Camp Nou to producing football
+                  legends through La Masia, the club's impact extends beyond the
+                  pitch, embodying the spirit of "Més que un club" (More than a
+                  club).
+                </Card.Text>
+                <Button variant="primary">Read More...</Button>
+              </Card.Body>
+            </Card>
+          </Col> */
+}
