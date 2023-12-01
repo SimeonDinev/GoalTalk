@@ -1453,7 +1453,7 @@
         league: "La Liga",
         founded: "29 November 1899",
         imageUrl:
-          "C:/Users/USER/Desktop/SoftUni - React project/GoalTalk/client/public/images/fc-barcelona-logo.png",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1024px-FC_Barcelona_%28crest%29.svg.png",
         _id: "3564027f-adcd-4425-b2c0-1253d2386c0a",
       },
       "3564027f-adcd-4425-b2c0-1253d2386c0b": {
@@ -1462,7 +1462,7 @@
         league: "La Liga",
         founded: "6 March 1902",
         imageUrl:
-          "C:/Users/USER/Desktop/SoftUni - React project/GoalTalk/client/public/images/real-madrid-logo.png",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/800px-Real_Madrid_CF.svg.png",
         _id: "3564027f-adcd-4425-b2c0-1253d2386c0b",
       },
       "3564027f-adcd-4425-b2c0-1253d2386c0c": {
@@ -1471,7 +1471,7 @@
         league: "Premier League",
         founded: "24 April 1902",
         imageUrl:
-          "C:/Users/USER/Desktop/SoftUni - React project/GoalTalk/client/public/images/manchester-united-logo.png",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1024px-Manchester_United_FC_crest.svg.png",
         _id: "3564027f-adcd-4425-b2c0-1253d2386c0c",
       },
       "3564027f-adcd-4425-b2c0-1253d2386c0d": {
@@ -1480,7 +1480,7 @@
         league: "Premier League",
         founded: "10 March 1905",
         imageUrl:
-          "C:/Users/USER/Desktop/SoftUni - React project/GoalTalk/client/public/images/chealsea-logo.png",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1024px-Chelsea_FC.svg.png",
         _id: "3564027f-adcd-4425-b2c0-1253d2386c0d",
       },
     },
