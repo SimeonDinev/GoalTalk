@@ -20,7 +20,7 @@ const Menu = () => {
           <Nav.Link as={Link} to="/clubs">
             Clubs
           </Nav.Link>
-          <Nav.Link as={Link} to="/famousPlayers">
+          <Nav.Link as={Link} to="/famous-players">
             Famous Players
           </Nav.Link>
           <Nav.Link as={Link} to="/news">

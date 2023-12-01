@@ -10,9 +10,7 @@ import "./Clubs.css";
 function Clubs() {
   const [club, setClub] = useState([]);
 
-  useEffect(() => {
-    fetch;
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <Container fluid>
