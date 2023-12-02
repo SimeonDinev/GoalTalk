@@ -60,12 +60,12 @@ function Clubs() {
                     {x.stadium} <br />
                   </Card.Text>
                   <Card.Text>
-                    <span style={{ fontWeight: "bold" }}>Founded</span>:{" "}
-                    {x.founded} <br />
-                    <span style={{ fontWeight: "bold" }}>League</span>:{" "}
-                    {x.league} <br />
-                    <span style={{ fontWeight: "bold" }}>Stadium</span>:{" "}
-                    {x.stadium} <br />
+                    <span style={{ fontWeight: "bold" }}>Nickname</span>:{" "}
+                    {x.nickname} <br />
+                    <span style={{ fontWeight: "bold" }}>Manager</span>:{" "}
+                    {x.manager} <br />
+                    <span style={{ fontWeight: "bold" }}>Website</span>:{" "}
+                    <a href={x.website}>Club website</a> <br />
                   </Card.Text>
                 </div>
                 <Button

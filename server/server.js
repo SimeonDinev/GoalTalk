@@ -1455,6 +1455,9 @@
         imageUrl:
           "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1024px-FC_Barcelona_%28crest%29.svg.png",
         _id: "3564027f-adcd-4425-b2c0-1253d2386c0a",
+        nickname: "Barça",
+        website: "https://www.fcbarcelona.es/es/",
+        manager: "Xavi",
       },
       "3564027f-adcd-4425-b2c0-1253d2386c0b": {
         clubName: "Real Madrid CF",
@@ -1464,6 +1467,9 @@
         imageUrl:
           "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/800px-Real_Madrid_CF.svg.png",
         _id: "3564027f-adcd-4425-b2c0-1253d2386c0b",
+        nickname: "Los Blancos",
+        website: "https://www.realmadrid.com/es-ES",
+        manager: "Carlo Ancelotti",
       },
       "3564027f-adcd-4425-b2c0-1253d2386c0c": {
         clubName: "Manchester United F.C.",
@@ -1473,6 +1479,9 @@
         imageUrl:
           "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1024px-Manchester_United_FC_crest.svg.png",
         _id: "3564027f-adcd-4425-b2c0-1253d2386c0c",
+        nickname: "The Red Devils",
+        website: "https://www.manutd.com/",
+        manager: "Erik ten Hag",
       },
       "3564027f-adcd-4425-b2c0-1253d2386c0d": {
         clubName: "Chelsea F.C.",
@@ -1482,8 +1491,9 @@
         imageUrl:
           "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1024px-Chelsea_FC.svg.png",
         _id: "3564027f-adcd-4425-b2c0-1253d2386c0d",
-        nicknames: "The Blues",
+        nickname: "The Blues",
         website: "https://www.chelseafc.com/en",
+        manager: "Mauricio Pochettino",
       },
     },
     // recipes: {
