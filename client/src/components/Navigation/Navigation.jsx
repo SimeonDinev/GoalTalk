@@ -41,6 +41,7 @@ const Navigation = () => {
           <Col md={7}>
             <Menu />
           </Col>
+
           <Col md={2.5} className="d-flex justify-content-end">
             <Button
               variant="success"

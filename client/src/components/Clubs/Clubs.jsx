@@ -51,7 +51,7 @@ function Clubs() {
                     marginBottom: "10px",
                   }}
                 >
-                  <Card.Text>
+                  <Card.Text style={{ marginRight: "15px" }}>
                     <span style={{ fontWeight: "bold" }}>Founded</span>:{" "}
                     {x.founded} <br />
                     <span style={{ fontWeight: "bold" }}>League</span>:{" "}

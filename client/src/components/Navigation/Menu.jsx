@@ -11,7 +11,7 @@ const Menu = () => {
         className="d-flex justify-content-center"
       >
         <Nav
-          className="d-flex justify-content-between  w-100"
+          className="me-auto d-flex justify-content-between  w-100"
           style={{ textTransform: "uppercase" }}
         >
           <Nav.Link as={Link} to="/">

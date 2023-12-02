@@ -1482,6 +1482,8 @@
         imageUrl:
           "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1024px-Chelsea_FC.svg.png",
         _id: "3564027f-adcd-4425-b2c0-1253d2386c0d",
+        nicknames: "The Blues",
+        website: "https://www.chelseafc.com/en",
       },
     },
     // recipes: {
