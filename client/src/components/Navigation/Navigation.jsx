@@ -1,12 +1,12 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/esm/Button";
-import Menu from "./Menu";
-import { Link } from "react-router-dom";
+import Menu from "./nav-menu/Menu";
 
 const Navigation = () => {
   const [isButtonHovered, setIsButttonHovered] = useState(false);

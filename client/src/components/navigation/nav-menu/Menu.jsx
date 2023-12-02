@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
+
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Menu.css";
-import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (

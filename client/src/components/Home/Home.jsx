@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
 import "./Home.css";
-import Card from "./Card";
+import Card from "./card/Card";
 
 const Home = () => {
   return (

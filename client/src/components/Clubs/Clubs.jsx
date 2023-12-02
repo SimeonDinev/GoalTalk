@@ -10,19 +10,26 @@ import "./Clubs.css";
 
 function Clubs() {
   const [state, setState] = useState([]);
+  const [readMore, setReadMore] = useState(false);
 
   useEffect(() => {
     getClubs().then((result) => setState(result));
   }, []);
 
-  console.log(state);
+  const clickHandler = () => {
+    if (readMore === false) {
+      setReadMore(true);
+    } else {
+      setReadMore(false);
+    }
+  };
 
   return (
     <Container fluid>
-      <Row xs={1} md={2} className="g-6" style={{ padding: "40px" }}>
+      <Row sm={1} lg={2} className="g-6" style={{ padding: "40px" }}>
         {state.map((x) => (
           <Col key={x._id} style={{ padding: "15px" }}>
-            <Card>
+            <Card style={{ height: "100%", width: "100%" }}>
               <Card.Body
                 style={{
                   display: "flex",
@@ -51,7 +58,9 @@ function Clubs() {
                     marginBottom: "10px",
                   }}
                 >
-                  <Card.Text style={{ marginRight: "15px" }}>
+                  <Card.Text
+                    style={{ marginRight: "15px", flexShrink: "nowrap" }}
+                  >
                     <span style={{ fontWeight: "bold" }}>Founded</span>:{" "}
                     {x.founded} <br />
                     <span style={{ fontWeight: "bold" }}>League</span>:{" "}
@@ -59,7 +68,9 @@ function Clubs() {
                     <span style={{ fontWeight: "bold" }}>Stadium</span>:{" "}
                     {x.stadium} <br />
                   </Card.Text>
-                  <Card.Text>
+                  <Card.Text
+                    style={{ marginRight: "15px", flexShrink: "nowrap" }}
+                  >
                     <span style={{ fontWeight: "bold" }}>Nickname</span>:{" "}
                     {x.nickname} <br />
                     <span style={{ fontWeight: "bold" }}>Manager</span>:{" "}
@@ -70,6 +81,7 @@ function Clubs() {
                 </div>
                 <Button
                   variant="primary"
+                  onClick={clickHandler}
                   style={{
                     width: "30%",
                     alignSelf: "center",
@@ -87,23 +99,3 @@ function Clubs() {
 }
 
 export default Clubs;
-{
-  /* <Col key={idx} style={{ padding: "15px" }}>
-            <Card>
-              <Card.Body>
-                <Card.Img variant="top" src="holder.js/100px160" />
-                <Card.Title>Barcelona</Card.Title>
-                <Card.Text>
-                  FC Barcelona, founded in 1899, is a football giant based in
-                  Catalonia, Spain. Known for its iconic style of play and
-                  global success, Barcelona has become synonymous with
-                  excellence. From the historic Camp Nou to producing football
-                  legends through La Masia, the club's impact extends beyond the
-                  pitch, embodying the spirit of "Més que un club" (More than a
-                  club).
-                </Card.Text>
-                <Button variant="primary">Read More...</Button>
-              </Card.Body>
-            </Card>
-          </Col> */
-}
