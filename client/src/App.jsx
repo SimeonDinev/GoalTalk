@@ -8,6 +8,7 @@ import Clubs from "./components/clubs/Clubs";
 import FamousPlayers from "./components/famous-players/FamousPlayers";
 import News from "./components/news/News";
 import Posts from "./components/posts/Posts";
+import ClubHistory from "./components/clubs/history-modal/ClubHistory";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Route path="/famous-players" element={<FamousPlayers />} />
         <Route path="/news" element={<News />} />
         <Route path="/posts" element={<Posts />} />
+
+        <Route path="/clubs/:clubHistoryId" element={<ClubHistory />} />
       </Routes>
 
       <Footer />
