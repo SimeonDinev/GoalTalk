@@ -13,7 +13,7 @@ function Clubs() {
   const [state, setState] = useState([]);
 
   useEffect(() => {
-    getClubs().then((result) => setState(result));
+    getClubs(`/clubs`).then((result) => setState(result));
   }, []);
 
   return (
@@ -51,9 +51,7 @@ function Clubs() {
                       marginBottom: "10px",
                     }}
                   >
-                    <Card.Text
-                      style={{ marginRight: "15px", flexShrink: "nowrap" }}
-                    >
+                    <Card.Text style={{ marginRight: "15px" }}>
                       <span style={{ fontWeight: "bold" }}>Founded</span>:{" "}
                       {x.founded} <br />
                       <span style={{ fontWeight: "bold" }}>League</span>:{" "}
@@ -61,9 +59,7 @@ function Clubs() {
                       <span style={{ fontWeight: "bold" }}>Stadium</span>:{" "}
                       {x.stadium} <br />
                     </Card.Text>
-                    <Card.Text
-                      style={{ marginRight: "15px", flexShrink: "nowrap" }}
-                    >
+                    <Card.Text style={{ marginRight: "15px" }}>
                       <span style={{ fontWeight: "bold" }}>Nickname</span>:{" "}
                       {x.nickname} <br />
                       <span style={{ fontWeight: "bold" }}>Manager</span>:{" "}
@@ -72,14 +68,11 @@ function Clubs() {
                       <a href={x.website}>Club website</a> <br />
                     </Card.Text>
                   </div>
-                  <Link to={`/clubs/:${x._id}`}>
-                    <Button
-                      variant="primary"
-                      style={{
-                        width: "30%",
-                        alignSelf: "center",
-                      }}
-                    >
+                  <Link
+                    to={`/clubs/${x._id}`}
+                    style={{ alignSelf: "center", width: "30%" }}
+                  >
+                    <Button variant="primary" style={{ width: "100%" }}>
                       Read More...
                     </Button>
                   </Link>
