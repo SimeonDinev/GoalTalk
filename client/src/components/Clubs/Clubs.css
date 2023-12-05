@@ -14,8 +14,11 @@
   margin-bottom: 20px;
 }
 #club-card-title {
+  font-size: 24px;
+  font-weight: bold;
   text-align: center;
   padding-bottom: 20px;
+  font-family: sans-serif, serif, "Times New Roman", Times;
 }
 #club-card-text-container {
   display: flex;
