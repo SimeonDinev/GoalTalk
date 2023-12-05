@@ -6,27 +6,13 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="bg-dark text-white ">
-      <Container
-        className="p-4"
-        style={{
-          fontFamily: "Bitter, Times, New Roman Times,serif",
-          fontWeight: "600",
-        }}
-      >
+      <Container className="p-4" id="footer-container">
         <Row className="d-flex justify-content-center">
           <Col xs={6} md={3}>
-            <h5
-              style={{
-                fontSize: "25px",
-                textAlign: "center",
-                paddingBottom: "8px",
-              }}
-            >
-              Connect with Me
-            </h5>
+            <h5 id="footer-heading">Connect with Me</h5>
             <ul
               className="list-unstyled d-flex justify-content-evenly"
-              style={{ marginBottom: "0" }}
+              id="icons-list"
             >
               <li>
                 <a
@@ -59,13 +45,8 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-      <div
-        className="text-center p-3"
-        style={{
-          backgroundColor: "rgba(0, 0, 0, 0.2)",
-          fontFamily: "Bitter, Times, New Roman Times,serif",
-        }}
-      >
+
+      <div className="text-center p-3" id="rights-reserved">
         © 2023 GoalTalk. All Rights Reserved.
       </div>
     </footer>

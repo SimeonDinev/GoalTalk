@@ -1,0 +1,28 @@
+#club-card-container {
+  height: 100%;
+  width: 100%;
+}
+#club-card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#club-logo-img {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+#club-card-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+#club-card-text-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+#card-read-more-btn {
+  align-self: center;
+  width: 30%;
+}

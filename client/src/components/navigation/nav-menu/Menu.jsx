@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+
 import "./Menu.css";
 
 const Menu = () => {
@@ -18,15 +19,19 @@ const Menu = () => {
           <Nav.Link as={Link} to="/">
             Home
           </Nav.Link>
+
           <Nav.Link as={Link} to="/clubs">
             Clubs
           </Nav.Link>
+
           <Nav.Link as={Link} to="/famous-players">
             Famous Players
           </Nav.Link>
+
           <Nav.Link as={Link} to="/news">
             News
           </Nav.Link>
+
           <Nav.Link as={Link} to="/posts">
             Posts
           </Nav.Link>

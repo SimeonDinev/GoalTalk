@@ -1,36 +1,16 @@
 import Card from "react-bootstrap/Card";
+import "./Card.css";
 
 function IntroCard() {
   return (
-    <Card
-      className="text-center"
-      style={{
-        margin: "48px 200px",
-      }}
-    >
-      <Card.Header
-        style={{
-          fontSize: "25px",
-          fontWeight: "bolder",
-          textTransform: "uppercase",
-          padding: "12px 0",
-        }}
-      >
-        History of the sport
-      </Card.Header>
-      <Card.Body style={{ padding: "60px" }}>
-        <blockquote
-          style={{
-            paddingBottom: "30px",
-            fontSize: "20px",
-            fontWeight: "600",
-            fontStyle: "italic",
-          }}
-        >
+    <Card id="card-container">
+      <Card.Header id="card-heading">History of the sport</Card.Header>
+      <Card.Body id="card-body">
+        <blockquote id="quatoe">
           "Football: where every kick tells a story, and every goal echoes with
           the joy of a universal language."
         </blockquote>
-        <Card.Text style={{ fontSize: "18px", paddingBottom: "20px" }}>
+        <Card.Text id="card-text">
           Football, boasts an ancient lineage rooted in various ball games
           played across civilizations. Modern football took shape in
           19th-century England, with standardized rules, notably the 1848

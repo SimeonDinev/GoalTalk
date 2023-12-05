@@ -20,38 +20,16 @@ function Clubs() {
   return (
     <>
       <Container fluid>
-        <Row sm={1} lg={2} className="g-6" style={{ padding: "40px" }}>
+        <Row sm={1} lg={2} className="g-6 p-5">
           {clubList.map((x) => (
-            <Col key={x._id} style={{ padding: "15px" }}>
-              <Card style={{ height: "100%", width: "100%" }}>
-                <Card.Body
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                  }}
-                >
-                  <Card.Img
-                    src={x.imageUrl}
-                    style={{
-                      height: "100px",
-                      width: "100px",
-                      alignSelf: "center",
-                      marginBottom: "20px",
-                    }}
-                  />
-                  <Card.Title
-                    style={{ textAlign: "center", paddingBottom: "20px" }}
-                  >
-                    {x.clubName}
-                  </Card.Title>
-                  <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "space-evenly",
-                      marginBottom: "10px",
-                    }}
-                  >
+            <Col key={x._id} className="p-4">
+              <Card id="club-card-container">
+                <Card.Body id="club-card-body">
+                  <Card.Img src={x.imageUrl} id="club-logo-img" />
+
+                  <Card.Title id="club-card-title">{x.clubName}</Card.Title>
+
+                  <div id="club-card-text-container">
                     <Card.Text style={{ marginRight: "15px" }}>
                       <span style={{ fontWeight: "bold" }}>Founded</span>:{" "}
                       {x.founded} <br />
@@ -69,10 +47,8 @@ function Clubs() {
                       <a href={x.website}>Club website</a> <br />
                     </Card.Text>
                   </div>
-                  <Link
-                    to={`/clubs/${x._id}`}
-                    style={{ alignSelf: "center", width: "30%" }}
-                  >
+
+                  <Link to={`/clubs/${x._id}`} id="card-read-more-btn">
                     <Button variant="primary" style={{ width: "100%" }}>
                       Read More...
                     </Button>

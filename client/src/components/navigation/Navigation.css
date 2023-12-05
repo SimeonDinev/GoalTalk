@@ -1,0 +1,13 @@
+#navbar-wrapper {
+  background-color: whitesmoke;
+}
+#logo-goal {
+  color: #4caf50;
+  font-weight: bold;
+  font-size: 33px;
+}
+#logo-talk {
+  color: #404040;
+  font-weight: bold;
+  font-size: 28px;
+}

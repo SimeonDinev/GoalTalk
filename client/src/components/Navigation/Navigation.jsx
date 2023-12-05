@@ -8,33 +8,19 @@ import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/esm/Button";
 import Menu from "./nav-menu/Menu";
 
+import "../navigation/Navigation.css";
+
 const Navigation = () => {
   const [isButtonHovered, setIsButttonHovered] = useState(false);
 
   return (
     <Row>
-      <Navbar expand="lg" style={{ backgroundColor: "whitesmoke" }}>
+      <Navbar expand="lg" id="navbar-wrapper">
         <Container>
           <Col md={2.5}>
-            <Navbar.Brand as={Link} to="/" style={{ fontSize: "25px" }}>
-              <span
-                style={{
-                  color: "#4CAF50",
-                  fontWeight: "bold",
-                  fontSize: "33px",
-                }}
-              >
-                Goal
-              </span>
-              <span
-                style={{
-                  fontWeight: "bold",
-                  fontSize: "28px",
-                  color: "#404040",
-                }}
-              >
-                Talk
-              </span>
+            <Navbar.Brand as={Link} to="/">
+              <span id="logo-goal">Goal</span>
+              <span id="logo-talk">Talk</span>
             </Navbar.Brand>
           </Col>
 
