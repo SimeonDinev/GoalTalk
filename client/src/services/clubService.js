@@ -1,19 +1,15 @@
-const baseURL = "http://localhost:3030/data/";
+import * as request from "../lib/request";
 
-export const getClubs = () => {
-  const x = fetch(`${baseURL}clubs`)
-    .then((response) => response.json())
-    .catch((error) => {
-      console.error("Fetch error:", error);
-    });
-  return x;
+const baseUrl = "http://localhost:3030/data/clubs";
+
+export const getAll = async () => {
+  const result = await request.get(baseUrl);
+
+  return Object.values(result);
 };
 
-export const getClubsDetail = (dir) => {
-  const k = fetch(`${baseURL}clubs/${dir}`)
-    .then((response) => response.json())
-    .catch((error) => {
-      console.error("Fetch error:", error);
-    });
-  return k;
+export const getOne = async (clubId) => {
+  const result = await request.get(`${baseUrl}/${clubId}`);
+
+  return result;
 };

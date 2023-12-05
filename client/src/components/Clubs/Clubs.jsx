@@ -1,26 +1,27 @@
 import { useState, useEffect } from "react";
-import { getClubs } from "../../services/clubService";
 import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
+import * as service from "../../services/clubService";
 
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
+
 import "./Clubs.css";
 
 function Clubs() {
-  const [state, setState] = useState([]);
+  const [clubList, setClubList] = useState([]);
 
   useEffect(() => {
-    getClubs(`/clubs`).then((result) => setState(result));
+    service.getAll().then((result) => setClubList(result));
   }, []);
 
   return (
     <>
       <Container fluid>
         <Row sm={1} lg={2} className="g-6" style={{ padding: "40px" }}>
-          {state.map((x) => (
+          {clubList.map((x) => (
             <Col key={x._id} style={{ padding: "15px" }}>
               <Card style={{ height: "100%", width: "100%" }}>
                 <Card.Body

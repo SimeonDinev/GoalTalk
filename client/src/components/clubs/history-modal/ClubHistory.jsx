@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { getClubsDetail } from "../../../services/clubService";
+import * as service from "../../../services/clubService";
 
 function ClubHistory() {
   const [club, setClub] = useState({});
   const { clubId } = useParams();
 
   useEffect(() => {
-    getClubsDetail(clubId).then(setClub);
+    service.getOne(clubId).then(setClub);
   }, [clubId]);
 
   return (
