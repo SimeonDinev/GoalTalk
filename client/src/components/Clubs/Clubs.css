@@ -1,4 +1,11 @@
+#cards-container {
+  box-shadow: 0px 0px 80px 40px rgba(237, 237, 237, 2) inset;
+  background: linear-gradient(rgba(206, 205, 205, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../../public/images/clubs-container-background.jpg");
+  background-size: cover;
+}
 #club-card-container {
+  background-color: rgb(232, 232, 232);
   height: 100%;
   width: 100%;
 }
@@ -8,10 +15,11 @@
   flex-direction: column;
 }
 #club-logo-img {
-  height: 100px;
-  width: 100px;
+  height: 105px;
+  width: 104px;
   align-self: center;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 #club-card-title {
   font-size: 24px;
@@ -25,7 +33,18 @@
   justify-content: space-evenly;
   margin-bottom: 10px;
 }
-#card-read-more-btn {
+#card-read-more-btn-container {
   align-self: center;
   width: 30%;
 }
+#club-card-container:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25) inset;
+  transition: 0.5s;
+}
+#card-read-more-btn {
+  width: 100%;
+  margin-bottom: 13px;
+  font-weight: 600;
+}
+
+/* style={{ width: "100%", marginBottom: "13px" }} */

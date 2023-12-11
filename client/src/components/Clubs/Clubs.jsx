@@ -19,8 +19,8 @@ function Clubs() {
 
   return (
     <>
-      <Container fluid>
-        <Row sm={1} lg={2} className="g-6 p-5">
+      <Container fluid id="cards-container">
+        <Row sm={1} lg={2} className="g-6 p-4">
           {clubList.map((x) => (
             <Col key={x._id} className="p-4">
               <Card id="club-card-container">
@@ -48,8 +48,11 @@ function Clubs() {
                     </Card.Text>
                   </div>
 
-                  <Link to={`/clubs/${x._id}`} id="card-read-more-btn">
-                    <Button variant="primary" style={{ width: "100%" }}>
+                  <Link
+                    to={`/clubs/${x._id}`}
+                    id="card-read-more-btn-container"
+                  >
+                    <Button variant="primary" id="card-read-more-btn">
                       Read More...
                     </Button>
                   </Link>
