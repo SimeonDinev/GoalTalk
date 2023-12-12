@@ -1458,8 +1458,8 @@
         nickname: "Barça",
         website: "https://www.fcbarcelona.es/es/",
         manager: "Xavi",
-        description:
-          "The history of Futbol Club Barcelona begins from the football club's founding in 1899 up until the present day. FC Barcelona, also known simply as Barcelona and familiarly as Barça, is based in Barcelona, Catalonia, Spain. The club was founded in 1899 by a group of Swiss, Catalan, German, and English footballers led by Joan Gamper. The club played amateur football until 1910 in various regional competitions. In 1910, the club participated in their first of many European competitions, and has since amassed fourteen UEFA trophies and a sextuple. In 1928, Barcelona co-founded La Liga, the top-tier in Spanish football, along with a string of other clubs. As of 2023, Barcelona has never been relegated from La Liga, a record they share with Athletic Bilbao and arch-rival Real Madrid.The history of Barcelona has often been political. Though it was a club created and run by foreigners, Barcelona gradually became a club associated with Catalan values. In Spain's transition to autocracy in 1925, Catalonia became increasingly hostile towards the central government in Madrid. The hostility enhanced Barcelona's image as a focal point for Catalonism, and when Francisco Franco banned the use of the Catalan language, the stadium of Barcelona became one of the few places the people could express their dissatisfaction. The Spanish transition to democracy in 1978 has not dampened the club's image of Catalan pride. In the 2000s and 2010s – a period of sporting success in the club and an increased focus on Catalan players – club officials have been openly faithful to historic club commitment to the defense of the country, democracy, freedom of expression and the right to decide, and have condemns any action that may impede the full exercise of these rights.",
+        // description:
+        // "The history of Futbol Club Barcelona begins from the football club's founding in 1899 up until the present day. FC Barcelona, also known simply as Barcelona and familiarly as Barça, is based in Barcelona, Catalonia, Spain. The club was founded in 1899 by a group of Swiss, Catalan, German, and English footballers led by Joan Gamper. The club played amateur football until 1910 in various regional competitions. In 1910, the club participated in their first of many European competitions, and has since amassed fourteen UEFA trophies and a sextuple. In 1928, Barcelona co-founded La Liga, the top-tier in Spanish football, along with a string of other clubs. As of 2023, Barcelona has never been relegated from La Liga, a record they share with Athletic Bilbao and arch-rival Real Madrid.The history of Barcelona has often been political. Though it was a club created and run by foreigners, Barcelona gradually became a club associated with Catalan values. In Spain's transition to autocracy in 1925, Catalonia became increasingly hostile towards the central government in Madrid. The hostility enhanced Barcelona's image as a focal point for Catalonism, and when Francisco Franco banned the use of the Catalan language, the stadium of Barcelona became one of the few places the people could express their dissatisfaction. The Spanish transition to democracy in 1978 has not dampened the club's image of Catalan pride. In the 2000s and 2010s – a period of sporting success in the club and an increased focus on Catalan players – club officials have been openly faithful to historic club commitment to the defense of the country, democracy, freedom of expression and the right to decide, and have condemns any action that may impede the full exercise of these rights.",
       },
       "3564027f-adcd-4425-b2c0-1253d2386c0b": {
         _id: "3564027f-adcd-4425-b2c0-1253d2386c0b",
@@ -1570,310 +1570,181 @@
         manager: "Pep Guardiola",
       },
     },
-    // recipes: {
-    // 	"3987279d-0ad4-4afb-8ca9-5b256ae3b298": {
-    // 		_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    // 		name: "Easy Lasagna",
-    // 		img: "assets/lasagna.jpg",
-    // 		ingredients: [
-    // 			"1 tbsp Ingredient 1",
-    // 			"2 cups Ingredient 2",
-    // 			"500 g  Ingredient 3",
-    // 			"25 g Ingredient 4"
-    // 		],
-    // 		steps: [
-    // 			"Prepare ingredients",
-    // 			"Mix ingredients",
-    // 			"Cook until done"
-    // 		],
-    // 		_createdOn: 1613551279012
-    // 	},
-    // 	"8f414b4f-ab39-4d36-bedb-2ad69da9c830": {
-    // 		_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    // 		name: "Grilled Duck Fillet",
-    // 		img: "assets/roast.jpg",
-    // 		ingredients: [
-    // 			"500 g  Ingredient 1",
-    // 			"3 tbsp Ingredient 2",
-    // 			"2 cups Ingredient 3"
-    // 		],
-    // 		steps: [
-    // 			"Prepare ingredients",
-    // 			"Mix ingredients",
-    // 			"Cook until done"
-    // 		],
-    // 		_createdOn: 1613551344360
-    // 	},
-    // 	"985d9eab-ad2e-4622-a5c8-116261fb1fd2": {
-    // 		_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    // 		name: "Roast Trout",
-    // 		img: "assets/fish.jpg",
-    // 		ingredients: [
-    // 			"4 cups Ingredient 1",
-    // 			"1 tbsp Ingredient 2",
-    // 			"1 tbsp Ingredient 3",
-    // 			"750 g  Ingredient 4",
-    // 			"25 g Ingredient 5"
-    // 		],
-    // 		steps: [
-    // 			"Prepare ingredients",
-    // 			"Mix ingredients",
-    // 			"Cook until done"
-    // 		],
-    // 		_createdOn: 1613551388703
-    // 	}
-    // },
-    // comments: {
-    // 	"0a272c58-b7ea-4e09-a000-7ec988248f66": {
-    // 		_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    // 		content: "Great recipe!",
-    // 		recipeId: "8f414b4f-ab39-4d36-bedb-2ad69da9c830",
-    // 		_createdOn: 1614260681375,
-    // 		_id: "0a272c58-b7ea-4e09-a000-7ec988248f66"
-    // 	}
-    // },
-    // records: {
-    // 	i01: {
-    // 		name: "John1",
-    // 		val: 1,
-    // 		_createdOn: 1613551388703
-    // 	},
-    // 	i02: {
-    // 		name: "John2",
-    // 		val: 1,
-    // 		_createdOn: 1613551388713
-    // 	},
-    // 	i03: {
-    // 		name: "John3",
-    // 		val: 2,
-    // 		_createdOn: 1613551388723
-    // 	},
-    // 	i04: {
-    // 		name: "John4",
-    // 		val: 2,
-    // 		_createdOn: 1613551388733
-    // 	},
-    // 	i05: {
-    // 		name: "John5",
-    // 		val: 2,
-    // 		_createdOn: 1613551388743
-    // 	},
-    // 	i06: {
-    // 		name: "John6",
-    // 		val: 3,
-    // 		_createdOn: 1613551388753
-    // 	},
-    // 	i07: {
-    // 		name: "John7",
-    // 		val: 3,
-    // 		_createdOn: 1613551388763
-    // 	},
-    // 	i08: {
-    // 		name: "John8",
-    // 		val: 2,
-    // 		_createdOn: 1613551388773
-    // 	},
-    // 	i09: {
-    // 		name: "John9",
-    // 		val: 3,
-    // 		_createdOn: 1613551388783
-    // 	},
-    // 	i10: {
-    // 		name: "John10",
-    // 		val: 1,
-    // 		_createdOn: 1613551388793
-    // 	}
-    // },
-    // catches: {
-    // 	"07f260f4-466c-4607-9a33-f7273b24f1b4": {
-    // 		_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    // 		angler: "Paulo Admorim",
-    // 		weight: 636,
-    // 		species: "Atlantic Blue Marlin",
-    // 		location: "Vitoria, Brazil",
-    // 		bait: "trolled pink",
-    // 		captureTime: 80,
-    // 		_createdOn: 1614760714812,
-    // 		_id: "07f260f4-466c-4607-9a33-f7273b24f1b4"
-    // 	},
-    // 	"bdabf5e9-23be-40a1-9f14-9117b6702a9d": {
-    // 		_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    // 		angler: "John Does",
-    // 		weight: 554,
-    // 		species: "Atlantic Blue Marlin",
-    // 		location: "Buenos Aires, Argentina",
-    // 		bait: "trolled pink",
-    // 		captureTime: 120,
-    // 		_createdOn: 1614760782277,
-    // 		_id: "bdabf5e9-23be-40a1-9f14-9117b6702a9d"
-    // 	}
-    // },
-    // furniture: {
-    // },
-    // orders: {
-    // },
-    // movies: {
-    // 	"1240549d-f0e0-497e-ab99-eb8f703713d7": {
-    // 		_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    // 		title: "Black Widow",
-    // 		description: "Natasha Romanoff aka Black Widow confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Comes on the screens 2020.",
-    // 		img: "https://miro.medium.com/max/735/1*akkAa2CcbKqHsvqVusF3-w.jpeg",
-    // 		_createdOn: 1614935055353,
-    // 		_id: "1240549d-f0e0-497e-ab99-eb8f703713d7"
-    // 	},
-    // 	"143e5265-333e-4150-80e4-16b61de31aa0": {
-    // 		_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    // 		title: "Wonder Woman 1984",
-    // 		description: "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.",
-    // 		img: "https://pbs.twimg.com/media/ETINgKwWAAAyA4r.jpg",
-    // 		_createdOn: 1614935181470,
-    // 		_id: "143e5265-333e-4150-80e4-16b61de31aa0"
-    // 	},
-    // 	"a9bae6d8-793e-46c4-a9db-deb9e3484909": {
-    // 		_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    // 		title: "Top Gun 2",
-    // 		description: "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.",
-    // 		img: "https://i.pinimg.com/originals/f2/a4/58/f2a458048757bc6914d559c9e4dc962a.jpg",
-    // 		_createdOn: 1614935268135,
-    // 		_id: "a9bae6d8-793e-46c4-a9db-deb9e3484909"
-    // 	}
-    // },
-    // likes: {
-    // },
-    // ideas: {
-    // 	"833e0e57-71dc-42c0-b387-0ce0caf5225e": {
-    // 		_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    // 		title: "Best Pilates Workout To Do At Home",
-    // 		description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima possimus eveniet ullam aspernatur corporis tempore quia nesciunt nostrum mollitia consequatur. At ducimus amet aliquid magnam nulla sed totam blanditiis ullam atque facilis corrupti quidem nisi iusto saepe, consectetur culpa possimus quos? Repellendus, dicta pariatur! Delectus, placeat debitis error dignissimos nesciunt magni possimus quo nulla, fuga corporis maxime minus nihil doloremque aliquam quia recusandae harum. Molestias dolorum recusandae commodi velit cum sapiente placeat alias rerum illum repudiandae? Suscipit tempore dolore autem, neque debitis quisquam molestias officia hic nesciunt? Obcaecati optio fugit blanditiis, explicabo odio at dicta asperiores distinctio expedita dolor est aperiam earum! Molestias sequi aliquid molestiae, voluptatum doloremque saepe dignissimos quidem quas harum quo. Eum nemo voluptatem hic corrupti officiis eaque et temporibus error totam numquam sequi nostrum assumenda eius voluptatibus quia sed vel, rerum, excepturi maxime? Pariatur, provident hic? Soluta corrupti aspernatur exercitationem vitae accusantium ut ullam dolor quod!",
-    // 		img: "./images/best-pilates-youtube-workouts-2__medium_4x3.jpg",
-    // 		_createdOn: 1615033373504,
-    // 		_id: "833e0e57-71dc-42c0-b387-0ce0caf5225e"
-    // 	},
-    // 	"247efaa7-8a3e-48a7-813f-b5bfdad0f46c": {
-    // 		_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    // 		title: "4 Eady DIY Idea To Try!",
-    // 		description: "Similique rem culpa nemo hic recusandae perspiciatis quidem, quia expedita, sapiente est itaque optio enim placeat voluptates sit, fugit dignissimos tenetur temporibus exercitationem in quis magni sunt vel. Corporis officiis ut sapiente exercitationem consectetur debitis suscipit laborum quo enim iusto, labore, quod quam libero aliquid accusantium! Voluptatum quos porro fugit soluta tempore praesentium ratione dolorum impedit sunt dolores quod labore laudantium beatae architecto perspiciatis natus cupiditate, iure quia aliquid, iusto modi esse!",
-    // 		img: "./images/brightideacropped.jpg",
-    // 		_createdOn: 1615033452480,
-    // 		_id: "247efaa7-8a3e-48a7-813f-b5bfdad0f46c"
-    // 	},
-    // 	"b8608c22-dd57-4b24-948e-b358f536b958": {
-    // 		_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    // 		title: "Dinner Recipe",
-    // 		description: "Consectetur labore et corporis nihil, officiis tempora, hic ex commodi sit aspernatur ad minima? Voluptas nesciunt, blanditiis ex nulla incidunt facere tempora laborum ut aliquid beatae obcaecati quidem reprehenderit consequatur quis iure natus quia totam vel. Amet explicabo quidem repellat unde tempore et totam minima mollitia, adipisci vel autem, enim voluptatem quasi exercitationem dolor cum repudiandae dolores nostrum sit ullam atque dicta, tempora iusto eaque! Rerum debitis voluptate impedit corrupti quibusdam consequatur minima, earum asperiores soluta. A provident reiciendis voluptates et numquam totam eveniet! Dolorum corporis libero dicta laborum illum accusamus ullam?",
-    // 		img: "./images/dinner.jpg",
-    // 		_createdOn: 1615033491967,
-    // 		_id: "b8608c22-dd57-4b24-948e-b358f536b958"
-    // 	}
-    // },
-    // catalog: {
-    // 	"53d4dbf5-7f41-47ba-b485-43eccb91cb95": {
-    // 		_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    // 		make: "Table",
-    // 		model: "Swedish",
-    // 		year: 2015,
-    // 		description: "Medium table",
-    // 		price: 235,
-    // 		img: "./images/table.png",
-    // 		material: "Hardwood",
-    // 		_createdOn: 1615545143015,
-    // 		_id: "53d4dbf5-7f41-47ba-b485-43eccb91cb95"
-    // 	},
-    // 	"f5929b5c-bca4-4026-8e6e-c09e73908f77": {
-    // 		_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    // 		make: "Sofa",
-    // 		model: "ES-549-M",
-    // 		year: 2018,
-    // 		description: "Three-person sofa, blue",
-    // 		price: 1200,
-    // 		img: "./images/sofa.jpg",
-    // 		material: "Frame - steel, plastic; Upholstery - fabric",
-    // 		_createdOn: 1615545572296,
-    // 		_id: "f5929b5c-bca4-4026-8e6e-c09e73908f77"
-    // 	},
-    // 	"c7f51805-242b-45ed-ae3e-80b68605141b": {
-    // 		_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    // 		make: "Chair",
-    // 		model: "Bright Dining Collection",
-    // 		year: 2017,
-    // 		description: "Dining chair",
-    // 		price: 180,
-    // 		img: "./images/chair.jpg",
-    // 		material: "Wood laminate; leather",
-    // 		_createdOn: 1615546332126,
-    // 		_id: "c7f51805-242b-45ed-ae3e-80b68605141b"
-    // 	}
-    // },
-    // teams: {
-    // 	"34a1cab1-81f1-47e5-aec3-ab6c9810efe1": {
-    // 		_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    // 		name: "Storm Troopers",
-    // 		logoUrl: "/assets/atat.png",
-    // 		description: "These ARE the droids we're looking for",
-    // 		_createdOn: 1615737591748,
-    // 		_id: "34a1cab1-81f1-47e5-aec3-ab6c9810efe1"
-    // 	},
-    // 	"dc888b1a-400f-47f3-9619-07607966feb8": {
-    // 		_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    // 		name: "Team Rocket",
-    // 		logoUrl: "/assets/rocket.png",
-    // 		description: "Gotta catch 'em all!",
-    // 		_createdOn: 1615737655083,
-    // 		_id: "dc888b1a-400f-47f3-9619-07607966feb8"
-    // 	},
-    // 	"733fa9a1-26b6-490d-b299-21f120b2f53a": {
-    // 		_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    // 		name: "Minions",
-    // 		logoUrl: "/assets/hydrant.png",
-    // 		description: "Friendly neighbourhood jelly beans, helping evil-doers succeed.",
-    // 		_createdOn: 1615737688036,
-    // 		_id: "733fa9a1-26b6-490d-b299-21f120b2f53a"
-    // 	}
-    // },
-    // members: {
-    // 	"cc9b0a0f-655d-45d7-9857-0a61c6bb2c4d": {
-    // 		_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    // 		teamId: "34a1cab1-81f1-47e5-aec3-ab6c9810efe1",
-    // 		status: "member",
-    // 		_createdOn: 1616236790262,
-    // 		_updatedOn: 1616236792930
-    // 	},
-    // 	"61a19986-3b86-4347-8ca4-8c074ed87591": {
-    // 		_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    // 		teamId: "dc888b1a-400f-47f3-9619-07607966feb8",
-    // 		status: "member",
-    // 		_createdOn: 1616237188183,
-    // 		_updatedOn: 1616237189016
-    // 	},
-    // 	"8a03aa56-7a82-4a6b-9821-91349fbc552f": {
-    // 		_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
-    // 		teamId: "733fa9a1-26b6-490d-b299-21f120b2f53a",
-    // 		status: "member",
-    // 		_createdOn: 1616237193355,
-    // 		_updatedOn: 1616237195145
-    // 	},
-    // 	"9be3ac7d-2c6e-4d74-b187-04105ab7e3d6": {
-    // 		_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    // 		teamId: "dc888b1a-400f-47f3-9619-07607966feb8",
-    // 		status: "member",
-    // 		_createdOn: 1616237231299,
-    // 		_updatedOn: 1616237235713
-    // 	},
-    // 	"280b4a1a-d0f3-4639-aa54-6d9158365152": {
-    // 		_ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
-    // 		teamId: "dc888b1a-400f-47f3-9619-07607966feb8",
-    // 		status: "member",
-    // 		_createdOn: 1616237257265,
-    // 		_updatedOn: 1616237278248
-    // 	},
-    // 	"e797fa57-bf0a-4749-8028-72dba715e5f8": {
-    // 		_ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
-    // 		teamId: "34a1cab1-81f1-47e5-aec3-ab6c9810efe1",
-    // 		status: "member",
-    // 		_createdOn: 1616237272948,
-    // 		_updatedOn: 1616237293676
-    // 	}
-    // }
+    clubDetails: {
+      "3564027f-adcd-4425-b2c0-1253d2386c0a": {
+        clubName: "FC Barcelona",
+        introduction:
+          "Founded on November 29, 1899, by Joan Gamper, FC Barcelona quickly became a symbol of Catalonia's identity. The club's motto, 'Més que un club' (More than a club), reflects its commitment to values beyond the pitch. From its early days, Barcelona has embodied a distinct footballing philosophy that prioritizes attacking play and flair.",
+        competition:
+          "FC Barcelona's dominance in La Liga is integral to its history. With 26 domestic league titles as of my last knowledge update in 2022, the club has consistently been at the forefront of Spanish football. Iconic players like Kubala, Cruyff, and more recently, Messi, have left an indelible mark on Barcelona's journey to becoming a La Liga powerhouse.",
+        triumphs:
+          "Barcelona's ascent to European glory began with the 1992 European Cup triumph at Wembley, marking the start of a new era. The club went on to secure multiple UEFA Champions League titles, with the peak being the historic treble in the 2008-2009 season under Pep Guardiola.",
+        stadium:
+          "Camp Nou, inaugurated in 1957, has witnessed the club's greatest triumphs. The stadium, with a seating capacity of over 99,000, stands not only as Europe's largest stadium but also as a testament to the unwavering passion of Barcelona's supporters. Historic moments, including European victories and legendary goals, echo through the stands.",
+
+        legendaryPlayers:
+          "The annals of FC Barcelona are adorned with iconic figures. From the prolific Laszlo Kubala to Johan Cruyff's 'Dream Team' era and the more recent era dominated by Lionel Messi, Xavi Hernandez, and Andres Iniesta, each generation has added to the club's unique playing style. The emphasis on 'tiki-taka' and attacking prowess has become synonymous with Barcelona's identity.",
+
+        challenges:
+          "FC Barcelona, like any institution, faced challenges. The club navigated financial difficulties in the early 2000s, yet emerged stronger. The departure of key players and transitions in management tested the club's resilience. However, the commitment to La Masia's youth development and a steadfast focus on its footballing philosophy allowed Barcelona to weather storms and maintain a competitive edge.",
+
+        conclusion:
+          "In conclusion, FC Barcelona's history is a tapestry woven with triumphs, iconic players, and a commitment to values that extend beyond football. The club's legacy is not merely in trophies but in the indomitable spirit that resonates globally. FC Barcelona remains a symbol of excellence, identity, and the beautiful game. ¡Visca el Barça!",
+      },
+      "3564027f-adcd-4425-b2c0-1253d2386c0b": {
+        clubName: "Real Madrid",
+        introduction:
+          "Established in 1902, Real Madrid stands as a global footballing powerhouse, embodying a rich history of success and a legacy that extends beyond the sport. This introduction sets the stage for an exploration of Real Madrid's unique identity and its profound impact on the world of football.",
+        competition:
+          "Real Madrid's dominance in La Liga is integral to its history. With numerous domestic league titles, the club has consistently been a force in Spanish football. Iconic players like Di Stéfano, Puskás, and more recently, Ronaldo, have left an indelible mark on Real Madrid's journey to becoming a La Liga giant.",
+        triumphs:
+          "Real Madrid's relationship with the UEFA Champions League is legendary. This chapter chronicles the club's storied history in the competition, featuring iconic victories, heartbreaking defeats, and the indelible mark left by players such as Cristiano Ronaldo and Sergio Ramos.",
+        stadium:
+          "The Santiago Bernabéu Stadium has been the epicenter of Real Madrid's glory. This chapter provides an in-depth look at the historic stadium, its architecture, and the unforgettable moments that have unfolded within its walls.",
+        legendaryPlayers:
+          "Real Madrid has been graced by some of the greatest footballing talents in history. Highlighting players like Alfredo Di Stéfano, Raúl, and Cristiano Ronaldo, this chapter celebrates the contributions of those who have become synonymous with the club's success.",
+        challenges:
+          "Real Madrid, like any other institution, has faced challenges. This section discusses periods of adversity, financial struggles, and the resilience demonstrated by the club in overcoming obstacles to maintain its elite status.",
+        conclusion:
+          "In conclusion, Real Madrid's journey through time is a testament to its enduring legacy. The club's consistent pursuit of excellence, commitment to attacking football, and ability to evolve with the times have solidified its place as a true footballing giant. As we reflect on the past, we anticipate a future filled with continued success and a lasting impact on the beautiful game. Hala Madrid!",
+      },
+      "3564027f-adcd-4425-b2c0-1253d2386c0c": {
+        clubName: "Manchester United",
+        introduction:
+          "Founded in 1878 as Newton Heath LYR Football Club, Manchester United has evolved into one of the most successful and iconic football clubs globally. This introduction sets the stage for an exploration of Manchester United's rich history, defining moments, and its enduring impact on the world of football.",
+        competition:
+          "Manchester United's dominance in the Premier League is integral to its history. With numerous domestic league titles, the club has been a powerhouse in English football. Iconic managers like Sir Matt Busby and Sir Alex Ferguson, along with legendary players, have contributed to Manchester United's status as a Premier League giant.",
+        triumphs:
+          "Manchester United's journey in European competitions has been filled with triumphs and iconic moments. This chapter explores the club's history in the UEFA Champions League, highlighting memorable victories, the famous Treble-winning season in 1998-1999, and the players who became legends under the floodlights.",
+        stadium:
+          "Old Trafford, the historic home of Manchester United, is more than a stadium; it's a symbol of the club's heritage. This chapter provides insight into the stadium's rich history, its iconic architecture, and the unforgettable moments that have unfolded within its hallowed grounds.",
+        legendaryPlayers:
+          "Manchester United has been home to footballing legends and a distinct playing style. From the Busby Babes to the Class of '92 and beyond, this chapter celebrates the contributions of players who have defined Manchester United's identity and the attacking football that fans adore.",
+        challenges:
+          "Manchester United, like any institution, has faced challenges. This section discusses periods of transition, managerial changes, and the resilience shown by the club. It also explores how Manchester United navigated challenges and underwent revival, striving to maintain its standing among football's elite.",
+        conclusion:
+          "In conclusion, Manchester United's journey is a captivating narrative of success, iconic players, and a commitment to attacking football. The club's legacy extends beyond trophies, embodying the spirit of resilience and determination. As Manchester United looks to the future, the Red Devils continue to be a symbol of passion, tradition, and excellence in the beautiful game.",
+      },
+      "3564027f-adcd-4425-b2c0-1253d2386c0d": {
+        clubName: "Chelsea FC",
+        introduction:
+          "Founded in 1905, Chelsea FC has grown from its early beginnings to become a prominent force in English and European football. This introduction sets the stage for an exploration of Chelsea's intriguing history, its rise to prominence, and its impact on the footballing world.",
+        competition:
+          "Chelsea's ascent to Premier League prominence is a defining chapter in its history. With multiple domestic league titles, the club has become a formidable presence in English football. Iconic managers, including Jose Mourinho and Carlo Ancelotti, have guided Chelsea to success on the domestic front.",
+        triumphs:
+          "Chelsea's European journey has been marked by triumphs and unforgettable moments. This chapter delves into the club's successes in European competitions, including the historic UEFA Champions League victories, showcasing the players and managers who played pivotal roles in these achievements.",
+        stadium:
+          "Stamford Bridge, Chelsea's iconic home ground, holds a special place in the club's history. This chapter explores the stadium's evolution, its unique atmosphere, and the memorable events that have unfolded within its confines.",
+        legendaryPlayers:
+          "Chelsea has been graced by footballing legends who have left an indelible mark on the club's history. This chapter celebrates the contributions of iconic players and managers, highlighting Chelsea's evolving style of play and the tactics that have defined different eras.",
+        challenges:
+          "Chelsea, like any club, has faced challenges along its journey. This section discusses periods of transition, financial challenges, and the resilience displayed by the club. It explores how Chelsea overcame obstacles, embraced new eras, and experienced resurgence on both domestic and European fronts.",
+        conclusion:
+          "In conclusion, Chelsea FC's history is a vibrant narrative of triumphs, legendary figures, and a commitment to excellence. The club's legacy extends far beyond the pitch, embodying the spirit of resilience and adaptability. As Chelsea looks ahead, the Blues continue to be a symbol of ambition, innovation, and success in the ever-evolving world of football.",
+      },
+      "3564027f-adcd-4425-b2c0-1253d2386c0e": {
+        clubName: "Inter Milan",
+        introduction:
+          "Founded in 1908, Inter Milan stands as one of the most storied football clubs, renowned for its distinctive black and blue colors and a legacy deeply rooted in Italian football. This introduction sets the stage for an exploration of Inter Milan's unique identity and its impact on the footballing world.",
+        competition:
+          "Inter Milan's consistent success in Serie A is a cornerstone of its history. With numerous domestic league titles, the club has been a dominant force in Italian football. Legendary players and managers have played crucial roles in Inter Milan's enduring presence at the top of Serie A.",
+        triumphs:
+          "Inter Milan's journey in European competitions has been highlighted by memorable triumphs. This chapter explores the club's iconic treble-winning season in 2009-2010, showcasing key victories and the players who etched their names into Inter Milan's history on the continental stage.",
+        stadium:
+          "San Siro, Inter Milan's iconic home stadium, has witnessed the club's greatest moments. This chapter provides an in-depth look at the history, architecture, and unique atmosphere of San Siro, a place where the passion of Inter Milan's supporters converges with the brilliance of its players.",
+        legendaryPlayers:
+          "Inter Milan boasts a rich history of legendary players who have defined the club's identity. This chapter celebrates the contributions of iconic figures, exploring Inter Milan's evolving playing style and the tactical innovations that have characterized different eras.",
+        challenges:
+          "Inter Milan, like any football institution, has faced challenges. This section delves into periods of adversity, financial struggles, and the resilience displayed by the club. It examines how Inter Milan navigated challenges, underwent a renaissance, and positioned itself as a formidable force in Italian and European football.",
+        conclusion:
+          "In conclusion, Inter Milan's journey is a testament to its legacy of success, unique identity, and unwavering passion. The club remains not just a football institution but a symbol of excellence, tradition, and the beautiful game. As Inter Milan looks forward, the Nerazzurri continue to inspire with their commitment to greatness. Forza Inter!",
+      },
+      "3564027f-adcd-4425-b2c0-1253d2386c0f": {
+        clubName: "Paris Saint-Germain",
+        introduction:
+          "Founded in 1970, Paris Saint-Germain (PSG) has become synonymous with flair, style, and success in French and European football. This introduction sets the stage for an exploration of PSG's unique journey, from its early days to its current status as a footballing powerhouse.",
+        competition:
+          "PSG's dominance in Ligue 1 is a defining aspect of its history. With multiple domestic league titles, the club has consistently been a force in French football. Iconic players and managers have contributed to PSG's rise to the summit of Ligue 1.",
+        triumphs:
+          "PSG's aspirations on the European stage have grown exponentially. This chapter explores the club's endeavors in European competitions, including memorable victories, star-studded line-ups, and the pursuit of UEFA Champions League glory.",
+        stadium:
+          "Parc des Princes, PSG's historic home stadium, holds a special place in the hearts of fans. This chapter provides insights into the stadium's rich history, its role in PSG's journey, and the passionate atmosphere that reverberates during matches.",
+        legendaryPlayers:
+          "PSG has become a destination for footballing superstars, known for assembling a team of Galácticos. This chapter celebrates the contributions of iconic players, exploring PSG's evolving playing style and the blend of individual brilliance that defines the club's identity.",
+        challenges:
+          "PSG, like any ambitious club, has faced challenges on its path to success. This section delves into periods of transition, financial endeavors, and the club's global ambitions. It examines how PSG has navigated challenges while maintaining a commitment to excellence.",
+        conclusion:
+          "In conclusion, PSG's journey is a captivating narrative of triumphs, global ambitions, and a commitment to entertainment. The club's legacy extends far beyond France, embodying the spirit of flair and elegance. As PSG looks ahead, the Parisians continue to elevate their status on the footballing stage. Allez Paris!",
+      },
+      "3564027f-adcd-4425-b2c0-1253d2386c0g": {
+        clubName: "FC Bayern Munich",
+        introduction:
+          "Founded in 1900, FC Bayern Munich has established itself as a powerhouse in German and European football. This introduction sets the stage for an exploration of Bayern Munich's rich history, dominance in domestic competitions, and its impact on the international footballing scene.",
+        competition:
+          "Bayern Munich's dominance in the Bundesliga is a hallmark of its history. With numerous domestic league titles, the club has consistently set the standard in German football. Iconic players and managers have played key roles in Bayern's sustained success in the Bundesliga.",
+        triumphs:
+          "Bayern Munich's journey in European competitions has been marked by triumphs and memorable moments. This chapter explores the club's successes in the UEFA Champions League, including historic victories, star-studded teams, and its place among Europe's elite.",
+        stadium:
+          "Allianz Arena, Bayern Munich's modern home, stands as a symbol of the club's contemporary success. This chapter provides insights into the stadium's architecture, the electric atmosphere during matches, and the unforgettable events that have unfolded within its walls.",
+        legendaryPlayers:
+          "Bayern Munich boasts a legacy of footballing legends who have left an indelible mark on the club. This chapter celebrates the contributions of iconic figures, exploring Bayern's distinctive playing style and the strategic philosophies that have defined different eras.",
+        challenges:
+          "FC Bayern Munich, like any ambitious club, has faced challenges on its path to excellence. This section delves into periods of transition, managerial changes, and the club's resilience in the face of adversity. It examines how Bayern has maintained a commitment to excellence while overcoming challenges.",
+        conclusion:
+          "In conclusion, FC Bayern Munich's history is a tapestry of success, legendary players, and a commitment to perfection. The club remains a benchmark for excellence in German and European football. As Bayern looks ahead, the red giants continue to inspire with their relentless pursuit of greatness. Mia san mia!",
+      },
+      "3564027f-adcd-4425-b2c0-1253d2386c0h": {
+        clubName: "Arsenal FC",
+        introduction:
+          "Founded in 1886, Arsenal FC has a storied history that spans over a century, marked by successes, iconic moments, and a commitment to attractive football. This introduction sets the stage for an exploration of Arsenal's unique journey, from its early days to its current status as a prominent football club.",
+        competition:
+          "Arsenal's success in the First Division and the Premier League is integral to its history. With multiple league titles, the club has consistently been a major player in English football. Iconic managers and players have left an indelible mark on Arsenal's journey to the pinnacle of English football.",
+        triumphs:
+          "Arsenal's endeavors in European competitions have been filled with drama and memorable moments. This chapter explores the club's journey in UEFA competitions, including historic victories, tough defeats, and the players who have graced the European stage wearing the iconic red and white.",
+        stadium:
+          "Highbury, the historic former home, and the modern Emirates Stadium have played crucial roles in Arsenal's history. This chapter provides insights into the unique atmospheres of both stadiums and their significance in the club's identity and fan culture.",
+        legendaryPlayers:
+          "Arsenal's Invincibles of the 2003-2004 season and the club's distinctive playing style are celebrated in this chapter. From the free-flowing football to iconic moments, this section delves into the elements that define Arsenal's footballing identity.",
+        challenges:
+          "Arsenal, like any football club, has faced challenges. This section explores periods of transition, managerial changes, and the club's resilience in the face of adversity. It examines how Arsenal has navigated challenges and embarked on a journey of rebuilding for sustained success.",
+        conclusion:
+          "In conclusion, Arsenal FC's history is a tapestry of triumphs, unforgettable moments, and a commitment to attacking football. The club remains a symbol of pride for its fans and the footballing world. As Arsenal looks ahead, the Gunners continue to strive for success and glory. Up the Arsenal!",
+      },
+      "3564027f-adcd-4425-b2c0-1253d2386c0i": {
+        clubName: "Liverpool FC",
+        introduction:
+          "Founded in 1892, Liverpool FC has a rich history filled with success, iconic moments, and a passionate fanbase. This introduction sets the stage for an exploration of Liverpool's unique journey, from its early days to its current standing as a footballing institution.",
+        competition:
+          "Liverpool's success in the First Division and the Premier League is a cornerstone of its history. With numerous league titles, the club has consistently been at the forefront of English football. Iconic managers and players have left an indelible mark on Liverpool's journey to domestic supremacy.",
+        triumphs:
+          "Liverpool's European adventures are legendary. This chapter delves into the club's triumphs in UEFA competitions, including memorable victories, iconic comebacks, and the players who have become synonymous with European glory while wearing the famous red jersey.",
+        stadium:
+          "Anfield, Liverpool's historic home, is more than a stadium; it's a fortress that pulsates with the heartbeat of the club. This chapter explores the unique atmosphere, the famous Kop stand, and the historic moments that have unfolded within Anfield's hallowed grounds.",
+        legendaryPlayers:
+          "Liverpool boasts a legacy of footballing legends who have embodied the 'Liverpool Way.' This chapter celebrates the contributions of iconic figures, exploring Liverpool's distinctive playing style, values, and the culture that defines the club.",
+        challenges:
+          "Liverpool, like any club, has faced challenges. This section explores periods of transition, financial difficulties, and the resilience displayed by the club. It delves into the Jurgen Klopp era, highlighting the transformative impact of the manager and the team's pursuit of excellence.",
+        conclusion:
+          "In conclusion, Liverpool FC's history is a mosaic of triumphs, resilience, and a commitment to the famous anthem, 'You'll Never Walk Alone.' The club remains a symbol of unity, passion, and footballing excellence. As Liverpool looks ahead, the Reds continue to inspire with their pursuit of glory. You'll Never Walk Alone!",
+      },
+      "3564027f-adcd-4425-b2c0-1253d2386c0j": {
+        clubName: "Manchester City",
+        introduction:
+          "Founded in 1880, Manchester City has undergone a transformative journey from its early days to becoming a modern footballing force. This introduction sets the stage for an exploration of Manchester City's unique history, marked by revival, triumphs, and a commitment to excellence.",
+        competition:
+          "Manchester City's ascent to the summit of the Premier League is central to its history. With recent domestic league dominance, the club has firmly established itself as a major player in English football. Iconic managers and players have contributed to Manchester City's rise to prominence.",
+        triumphs:
+          "Manchester City's pursuit of success in European competitions is a defining chapter. This section explores the club's journey in UEFA competitions, including historic victories, memorable moments, and the challenges faced on the continental stage.",
+        stadium:
+          "Etihad Stadium, Manchester City's home, is a symbol of the club's modern era. This chapter provides insights into the stadium's significance, the vibrant atmosphere during matches, and the historic events that have unfolded within its walls.",
+        legendaryPlayers:
+          "Manchester City has been graced by footballing icons and a distinctive playing style. This chapter celebrates the contributions of legendary figures, exploring Manchester City's evolving playing philosophy and the tactics that have defined different eras.",
+        challenges:
+          "Manchester City, like any ambitious club, has faced challenges. This section discusses periods of transition, financial evolution, and the resilience displayed by the club. It examines how Manchester City has overcome challenges and continuously strived for improvement.",
+        conclusion:
+          "In conclusion, Manchester City's history is a narrative of triumphs, innovation, and a commitment to excellence. The club stands as a symbol of Cityzens' pride and the pursuit of footballing greatness. As Manchester City looks ahead, the sky-blue revolution continues to inspire with its dedication to success. Come on, City!",
+      },
+    },
   };
   var rules$1 = {
     users: {

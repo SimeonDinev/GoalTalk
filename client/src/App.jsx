@@ -22,7 +22,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/posts" element={<Posts />} />
 
-        <Route path="/clubs/:clubId" element={<ClubHistory />} />
+        <Route path="/clubDetails/:clubId" element={<ClubHistory />} />
       </Routes>
 
       <Footer />

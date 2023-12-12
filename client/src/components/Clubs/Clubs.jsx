@@ -49,7 +49,7 @@ function Clubs() {
                   </div>
 
                   <Link
-                    to={`/clubs/${x._id}`}
+                    to={`/clubDetails/${x._id}`}
                     id="card-read-more-btn-container"
                   >
                     <Button variant="primary" id="card-read-more-btn">

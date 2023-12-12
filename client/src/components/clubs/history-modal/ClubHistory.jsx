@@ -6,11 +6,16 @@ import { Container } from "react-bootstrap";
 import "./ClubHistory.css";
 
 function ClubHistory() {
-  const [club, setClub] = useState({});
+  const [clubImg, setClubImg] = useState({});
+  const [club, setClub] = useState([]);
   const { clubId } = useParams();
 
   useEffect(() => {
-    service.getOne(clubId).then(setClub);
+    service.getDetails(clubId).then(setClub);
+  }, [clubId]);
+
+  useEffect(() => {
+    service.getOne(clubId).then((res) => setClubImg(res.imageUrl));
   }, [clubId]);
 
   return (
@@ -18,7 +23,7 @@ function ClubHistory() {
       <h1 style={{ textAlign: "center", marginTop: "40px" }}>
         <span>
           <img
-            src={club.imageUrl}
+            src={clubImg}
             alt="club logo"
             style={{ height: "90px", width: "90px", marginRight: "50px" }}
           />
@@ -26,7 +31,7 @@ function ClubHistory() {
         {club.clubName}
         <span>
           <img
-            src={club.imageUrl}
+            src={clubImg}
             alt="club logo"
             style={{ height: "90px", width: "90px", marginLeft: "50px" }}
           />
@@ -41,7 +46,7 @@ function ClubHistory() {
           fontWeight: "500",
         }}
       >
-        <p>{club.description}</p>
+        <h1>{club.introduction}</h1>
       </div>
     </Container>
   );
