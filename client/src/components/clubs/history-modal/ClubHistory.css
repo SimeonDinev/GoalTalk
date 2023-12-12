@@ -1,9 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Great+Vibes&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+NKo+Unjoined:wght@400;500;600;700&family=Raleway:wght@300&family=Roboto:ital,wght@0,100;0,400;0,500;1,700&family=Shizuru&display=swap");
 #details-container {
-  background: linear-gradient(
-      rgba(237, 237, 237, 0.7),
-      rgba(237, 236, 236, 0.8)
+  box-shadow: 0px 0px 50px 0px rgba(237, 237, 237, 1) inset;
+
+  background-color: #e4e4e1;
+  background-image: radial-gradient(
+      at top center,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(0, 0, 0, 0.03) 100%
     ),
-    url("../../../../public/images/football-border.jpg");
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(143, 152, 157, 0.6) 100%
+    );
+  background-blend-mode: normal, multiply;
   background-size: cover;
   background-repeat: no-repeat;
   color: #343a40;
@@ -14,4 +24,59 @@
   background-color: whitesmoke;
   min-height: 497px;
   height: 100%;
+}
+
+.logo-img {
+  height: 90px;
+  width: 90px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.card-history-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+#history-card {
+  width: 70rem;
+  padding: 30px 80px;
+  background-color: #e4e4e1;
+  background: linear-gradient(to bottom, #d5dee7 0%, #e8ebf2 50%, #e2e7ed 100%),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.02) 50%,
+      rgba(255, 255, 255, 0.02) 61%,
+      rgba(0, 0, 0, 0.02) 73%
+    ),
+    linear-gradient(33deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background-blend-mode: normal, color-burn;
+  box-shadow: 0px 0px 40px 20px rgba(237, 237, 237, 2);
+}
+
+#card-history-heading {
+  font-weight: 700;
+}
+#heading-of-the-team {
+  text-align: center;
+  margin: 40px;
+  font-family: "Luckiest Guy";
+  color: #333;
+  text-decoration: underline darkcyan dotted;
+}
+
+.horizontal-line {
+  margin: 30px 0px;
+  border: 0;
+  height: 1.5px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
 }
