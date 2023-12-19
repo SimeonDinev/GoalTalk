@@ -66,7 +66,7 @@
   margin: 40px;
   font-family: "Luckiest Guy";
   color: #333;
-  text-decoration: underline darkcyan dotted;
+  text-shadow: 2px 2px darkcyan;
 }
 
 .horizontal-line {

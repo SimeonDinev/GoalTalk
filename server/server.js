@@ -1745,6 +1745,212 @@
           "In conclusion, Manchester City's history is a narrative of triumphs, innovation, and a commitment to excellence. The club stands as a symbol of Cityzens' pride and the pursuit of footballing greatness. As Manchester City looks ahead, the sky-blue revolution continues to inspire with its dedication to success. Come on, City!",
       },
     },
+    players: {
+      "9be3ac7d-2c6e-4d74-b187-04105ab7ed01": {
+        _id: "9be3ac7d-2c6e-4d74-b187-04105ab7ed01",
+        name: "Lionel Messi",
+        born: "June 24, 1987",
+        birthPlace: "Rosario, Santa Fe, Argentina",
+        nationality: "Argentinian",
+        height: "1.70 m",
+        positions: "Forward",
+        goals: "802",
+        trophies: "42",
+        status: "active",
+        readMore:
+          "Emerging from Barcelona's academy La Masia, Lionel Messi quickly became one of the best players in football, winning his first Ballon d’Or in 2009 at the age of 22. He went on to win seven of them. He won the coveted treble twice with Barcelona and finally ended his wait for a major international trophy with the Copa America 2021 and then added the FIFA World Cup 2022 trophy to his haul, which also includes an Olympic gold medal from Beijing 2008. He is also the only player in history to win two Golden Balls in World Cups (2014 and 2022). Now in the twilight of his career, the Argentinian legend is now playing in the United States with Inter Miami. In his short time in Miami, he has made an impact by helping the franchise win the Leagues Cup which is the first ever in the history of the franchise.",
+
+        imgUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg/330px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg",
+      },
+      "9be3ac7d-2c6e-4d74-b187-04105ab7ed02": {
+        _id: "9be3ac7d-2c6e-4d74-b187-04105ab7ed02",
+        name: "Cristiano Ronaldo",
+        born: "5 February 1985",
+        birthPlace: "Funchal, Madeira, Portugal",
+        nationality: "Portuguese",
+        height: "1.87 m",
+        positions: "Forward",
+        goals: "819",
+        trophies: "34",
+        status: "active",
+        readMore:
+          "Cristiano Ronaldo is the greatest goal-scorer in football history and won league titles in three different countries - England, Spain and Italy, over the course of his career. He also won five Champions League titles, four of which came during his iconic spell at Real Madrid. The five-time Ballon d'Or winner also scored four goals en route to Portugal's first-ever major trophy, the UEFA Euro 2012.",
+
+        imgUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg/330px-Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg",
+      },
+      "9be3ac7d-2c6e-4d74-b187-04105ab7ed03": {
+        _id: "9be3ac7d-2c6e-4d74-b187-04105ab7ed03",
+        name: "Pelé",
+        born: "23 October 1940",
+        birthPlace: "Três Corações, Brazil",
+        nationality: "Brazilian",
+        height: "1.73 m",
+        positions: "Forward",
+        goals: "767",
+        trophies: "26",
+        status: "inactive",
+        readMore:
+          "Three-time World Cup-winner Pele announced his arrival on the global stage with six goals in the 1958 World Cup. Renowned among modern day fans as the first superstar of football, the “Black Pearl” went on to score over 700 goals for club and country, also winning multiple titles with Brazilian club Santos.",
+
+        imgUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Pele_con_brasil_%28cropped%29.jpg/330px-Pele_con_brasil_%28cropped%29.jpg",
+      },
+      "9be3ac7d-2c6e-4d74-b187-04105ab7ed04": {
+        _id: "9be3ac7d-2c6e-4d74-b187-04105ab7ed04",
+        name: "Diego Maradon",
+        born: "30 October 1960",
+        birthPlace: "Lanús, Argentina",
+        nationality: "Argentinian",
+        height: "1.65 m",
+        positions: "Forward",
+        goals: "353",
+        trophies: "12",
+        status: "inactive",
+        readMore:
+          "Widely rated by multiple fans and experts as one of the greatest attacking players in football, Diego Maradona inspired a generation of footballers with his ball control and trickery. He won the 1986 FIFA World Cup with Argentina, scoring two goals each in the quarter-finals and semi-finals of the tournament. He also drove Napoli to the only two league titles they won in their history.",
+
+        imgUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/330px-Maradona-Mundial_86_con_la_copa.JPG",
+      },
+      "9be3ac7d-2c6e-4d74-b187-04105ab7ed05": {
+        _id: "9be3ac7d-2c6e-4d74-b187-04105ab7ed05",
+        name: "Johan Cruyff",
+        born: "25 April 1947",
+        birthPlace: "Amsterdam, Netherlands",
+        nationality: "Netherlander",
+        height: "1.78 m",
+        positions: "Forward",
+        goals: "433",
+        trophies: "22",
+        status: "inactive",
+        readMore:
+          "Touted as the pioneer of “Total football”, Johan Cruyff is considered the most influential personality in football history for his contributions as player and manager. Johan Cruyff won three consecutive European Cup titles (currently Champions League) with Ajax, also winning the Ballon d’Or three times. With the Netherlands, he reached the FIFA World Cup finals two times in a row in 1974 and 1978.",
+
+        imgUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Johan_Cruijff_%281974%29.jpg/375px-Johan_Cruijff_%281974%29.jpg",
+      },
+      "9be3ac7d-2c6e-4d74-b187-04105ab7ed06": {
+        _id: "9be3ac7d-2c6e-4d74-b187-04105ab7ed06",
+        name: "Zinedine Zidane",
+        born: "23 June 1972",
+        birthPlace: "Marseille, France",
+        nationality: "Netherlander",
+        height: "1.85 m",
+        positions: "Midfielder",
+        goals: "156",
+        trophies: "15",
+        status: "inactive",
+        readMore:
+          "Zinedine Zidane is one of the greatest football players ever. He was an embodiment of control and technique. He started as a youngster in Cannes but he was spotted by Bordeaux who signed him. Later on, he was snapped up by Juventus where he won multiple titles before moving to Real Madrid where he won the Champions League in his first season. He also helped France win the 1998 FIFA World Cup on home soil and got to the finals again in 2006 where they lost to Italy. He was named the best player in the World in 1998, 2000, and 2003.",
+
+        imgUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg/330px-Zinedine_Zidane_by_Tasnim_03.jpg",
+      },
+      "9be3ac7d-2c6e-4d74-b187-04105ab7ed07": {
+        _id: "9be3ac7d-2c6e-4d74-b187-04105ab7ed07",
+        name: "Gerd Muller",
+        born: "3 November 1945",
+        birthPlace: "Nördlingen, Germany",
+        nationality: "German",
+        height: "1.76 m",
+        positions: "Striker",
+        goals: "718",
+        trophies: "16",
+        status: "inactive",
+        readMore:
+          "Gerd Muller is a German football legend and one of the greatest footballing exports from the European country. He played for a couple of German clubs including Bayern Munich where he made his name. He made 453 appearances in the colours of Bayern Munich with a goals record of 398. Later on in his career, he moved to the United States where he played for Fort Lauderdale Strikers. On the International scene, he won the European championship with Germany in 1972 and the FIFA World Cup two years later.",
+
+        imgUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Gerd_Muller_1978.JPG/330px-Gerd_Muller_1978.JPG",
+      },
+      "9be3ac7d-2c6e-4d74-b187-04105ab7ed08": {
+        _id: "9be3ac7d-2c6e-4d74-b187-04105ab7ed08",
+        name: "Ronaldo Nazario",
+        born: "18 September 1976",
+        birthPlace: "Itaguaí, Brazil",
+        nationality: "Brazilian",
+        height: "1.83 m",
+        positions: "Striker",
+        goals: "414",
+        trophies: "19",
+        status: "inactive",
+        readMore:
+          "Ronaldo was a prodigy who blossomed early in his career. Even years after a career blighted by injury, the Brazilian is still widely regarded as one of the best strikers ever. He began his career at Cruzeiro where he notified the Brazilian public of his goal-scoring instincts, bagging 12 goals in 14 matches. Ronaldo at 17 made the USA 1994 World Cup winning squad, but he was limited to a bit part role. He soon moved to PSV where banged in 30 goals in his first season in European football. His consistency soon earned him a move to Barcelona where he continued his scoring streak. In 1998 he and Brazil lost the World Cup final to France, but won it four years later in Korea/Japan 2002. He won the Ballon d'Or twice in his career with a host of major trophies. He scored a total of 414 goals for club and country.",
+
+        imgUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/051119SMcC0014.jpg/330px-051119SMcC0014.jpg",
+      },
+      "9be3ac7d-2c6e-4d74-b187-04105ab7ed09": {
+        _id: "9be3ac7d-2c6e-4d74-b187-04105ab7ed09",
+        name: "Alfredo di Stefano",
+        born: "4 July 1926",
+        birthPlace: "Buenos Aires, Argentina",
+        nationality: "Brazilian",
+        height: "1.78 m",
+        positions: "Forward, Midfielder",
+        goals: "509",
+        trophies: "27",
+        status: "inactive",
+        readMore:
+          "Real Madrid and Argentina legend Alfredo Di Stefano is widely regarded as one of the most complete players to grace the beautiful game. Born in Buenos Aires, he started his career with River Plate. At first, he struggled to get into the first team and was subsequently sent on loan to Atletico Huracan. On returning from the loan spell, he became an integral part of the River Plate team thus helping them to the title in 1947. He had a stint with Millionariis before he sojourned to Spain to join Real Madrid. It was Real Madrid he made his name and became famous worldwide. He helped the Spanish giants win eight La Liga titles between 1954 and 1964, and another five consecutive European titles between 1955 and 1960.",
+
+        imgUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Di_stefano_argentina_%28cropped%29.jpg/330px-Di_stefano_argentina_%28cropped%29.jpg",
+      },
+      "9be3ac7d-2c6e-4d74-b187-04105ab7ed10": {
+        _id: "9be3ac7d-2c6e-4d74-b187-04105ab7ed10",
+        name: "Michel Platini",
+        born: "21 June 1955",
+        birthPlace: "Jœuf, France",
+        nationality: "Frenchman",
+        height: "1.79 m",
+        positions: "Midfielder",
+        goals: "353",
+        trophies: "12",
+        status: "inactive",
+        readMore:
+          "The history of French football cannot be complete without that of Michel Platini being told. He was an excellent midfielder during his playing career. He was born in 1955 to Italian parents in the North-East of France. He started his youth career with Nancy and later became a professional with the club winning the 1978 French Cup. He teamed up with Saint Etienne later and he helped them win the Ligue 1 title in 1981. A year after winning the title in France he moved to Juventus where he won a number of titles.",
+
+        imgUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/6/66/Michel_Platini_2010_%28cropped%29.jpg",
+      },
+      "9be3ac7d-2c6e-4d74-b187-04105ab7ed11": {
+        _id: "9be3ac7d-2c6e-4d74-b187-04105ab7ed11",
+        name: "Paolo Maldini",
+        born: "26 June 1968",
+        birthPlace: "Milan, Italy",
+        nationality: "Italian",
+        height: "1.86 m",
+        positions: "Defender",
+        goals: "40",
+        trophies: "8",
+        status: "inactive",
+        readMore:
+          "Paolo Maldini, born on June 26, 1968, in Milan, Italy, is a football legend known for his entire playing career at AC Milan. Debuting in 1985, he became a stalwart defender, captaining both Milan and Italy. Maldini won numerous Serie A titles and UEFA Champions League trophies, contributing to AC Milan's dominance in the late 1980s and 1990s. Renowned for his defensive prowess and versatility, he retired in 2009 after over two decades with the club. Maldini's legacy embodies loyalty, leadership, and excellence in football.",
+
+        imgUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Paolo_Maldini_AC_Milan_Technical_director_2018.jpg/330px-Paolo_Maldini_AC_Milan_Technical_director_2018.jpg",
+      },
+      "9be3ac7d-2c6e-4d74-b187-04105ab7ed12": {
+        _id: "9be3ac7d-2c6e-4d74-b187-04105ab7ed12",
+        name: "Hristo Stoichkov",
+        born: "8 February 1966",
+        birthPlace: "Plovdiv, Bulgaria",
+        nationality: "Bulgarian",
+        height: "1.78 m",
+        positions: "Forward",
+        goals: "250",
+        trophies: "10",
+        status: "inactive",
+        readMore:
+          "Hristo Stoichkov, born on February 8, 1966, in Plovdiv, Bulgaria, is a football icon celebrated for his skill, flair, and goal-scoring prowess. Emerging in the late 1980s, he gained prominence with CSKA Sofia before moving to Barcelona in 1990. Stoichkov played a pivotal role in Barcelona's success, winning four consecutive La Liga titles and the UEFA Champions League in 1992. His individual achievements include the Ballon d'Or in 1994. Stoichkov's fiery personality on the pitch matched his playing style, making him a fan favorite. Known for his lethal left foot and dynamic attacking play, he was a key figure in Bulgaria's surprising run to the 1994 FIFA World Cup semifinals, earning him the Golden Boot as the tournament's top scorer. After successful stints in various European clubs, Stoichkov retired in 2003. Post-retirement, he ventured into coaching and punditry, leaving an enduring legacy as one of Bulgaria's greatest football exports and a symbol of skill and passion on the field.",
+
+        imgUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Stoichkov_in_2016.jpg/330px-Stoichkov_in_2016.jpg",
+      },
+    },
   };
   var rules$1 = {
     users: {

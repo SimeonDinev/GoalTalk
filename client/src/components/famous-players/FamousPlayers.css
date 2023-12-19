@@ -1,0 +1,33 @@
+#famous-players-background-container {
+  padding: 50px;
+  background-color: #c4dce0;
+  box-shadow: 0px 0px 30px 50px rgba(245, 245, 245, 0.6) inset;
+}
+#heading-of-famous-players {
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 30px;
+  font-family: "Luckiest Guy", sans-serif, serif, "Times New Roman", Times;
+  text-shadow: 5px 5px 10px darkcyan;
+}
+#famous-players-card {
+  border: solid 0.5px #3d7c47;
+  height: 100%;
+  border-radius: 0px;
+  box-shadow: 0px 0px 80px 40px rgba(246, 245, 245, 0.2);
+}
+
+#famous-players-card-body {
+  padding: 0;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  background-color: #daf4f5;
+}
+
+#famous-players-card-body:hover {
+  box-shadow: 0px 0px 30px 5px rgb(0, 139, 139, 0.5);
+  transition: 0.5s;
+}
