@@ -12,27 +12,36 @@ import "./FamousPlayers.css";
 
 const FamousPlayers = () => {
   const [players, setPlayers] = useState([]);
+  const [playerDetails, setPlayerDetails] = useState([]);
   const [readMore, setReadMore] = useState(false);
 
   useEffect(() => {
     service.getAll().then((res) => setPlayers(res));
   }, []);
 
-  const openReadMoreHandler = () => {
+  const showDetails = (id) => {
     setReadMore(true);
+    setPlayerDetails(players.find((element) => element._id === id));
   };
 
-  if (readMore === true) {
+  if (readMore) {
+    var htmlElement = document.documentElement;
+    htmlElement.style.overflow = "disable";
+  } else {
+    var htmlElement = document.documentElement;
+    htmlElement.style.overflow = "visible";
   }
 
   return (
     <>
       {readMore && (
         <PlayersModal
-          show={openReadMoreHandler}
+          show={showDetails}
           onHide={() => setReadMore(false)}
+          details={{ playerDetails }}
         />
       )}
+
       <Container fluid id="famous-players-background-container">
         <h1 id="heading-of-famous-players">Legendary football players</h1>
 
@@ -89,7 +98,7 @@ const FamousPlayers = () => {
                   <Button
                     variant="primary"
                     style={{ alignSelf: "center", marginBottom: "20px" }}
-                    onClick={openReadMoreHandler}
+                    onClick={() => showDetails(res._id)}
                   >
                     Read More...
                   </Button>

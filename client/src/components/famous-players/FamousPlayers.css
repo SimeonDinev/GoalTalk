@@ -1,16 +1,31 @@
 #famous-players-background-container {
-  padding: 50px;
+  padding: 53px;
   background-color: #c4dce0;
-  box-shadow: 0px 0px 30px 50px rgba(245, 245, 245, 0.6) inset;
+  box-shadow: 0px 0px 30px 50px rgba(255, 255, 255, 0.6) inset;
+
+  box-shadow: 0px 0px 80px 40px rgba(237, 237, 237, 2) inset;
+  background: linear-gradient(rgba(206, 205, 205, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../../public/images/clubs-container-background.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #heading-of-famous-players {
-  font-size: 45px;
+  /* font-size: 45px;
   font-weight: 400;
   text-align: center;
   margin: 0;
   padding-bottom: 30px;
   font-family: "Luckiest Guy", sans-serif, serif, "Times New Roman", Times;
-  text-shadow: 5px 5px 10px darkcyan;
+   text-shadow: 5px 5px 10px darkcyan; */
+
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 30px;
+  font-family: "Luckiest Guy", sans-serif, serif, "Times New Roman", Times;
+  text-shadow: 5px 5px 8px whitesmoke;
 }
 #famous-players-card {
   border: solid 0.5px #3d7c47;
@@ -28,6 +43,6 @@
 }
 
 #famous-players-card-body:hover {
-  box-shadow: 0px 0px 30px 5px rgb(0, 139, 139, 0.5);
+  box-shadow: 0px 0px 35px 5px rgba(255, 255, 255, 0.8);
   transition: 0.5s;
 }
