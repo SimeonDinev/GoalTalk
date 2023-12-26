@@ -50,54 +50,17 @@ const FamousPlayers = () => {
             <Col key={res._id}>
               <Card id="famous-players-card">
                 <Card.Body id="famous-players-card-body">
-                  <Card.Img
-                    variant="top"
-                    src={res.imgUrl}
-                    style={{
-                      height: "330px",
-                      flexShrink: "0",
-                      borderRadius: "0px",
-                    }}
-                  />
-
-                  <Card.Title
-                    style={{
-                      marginTop: "20px",
-                      alignSelf: "center",
-                      fontWeight: "600",
-                      padding: "10px",
-                    }}
-                  >
-                    {res.name}
-                  </Card.Title>
-
-                  <Card.Text
-                    style={{
-                      marginRight: "10x",
-                      paddingLeft: "10px",
-                      margin: "10px",
-                      padding: "10px",
-                      lineHeight: "30px",
-                      height: "110%",
-                    }}
-                  >
-                    <span style={{ fontWeight: "bold" }}>Nationality:</span>{" "}
-                    {res.nationality} <br />
-                    <span style={{ fontWeight: "bold" }}>Height:</span>{" "}
-                    {res.height} <br />
-                    <span style={{ fontWeight: "bold" }}>
-                      Position(s):
-                    </span>{" "}
-                    {res.positions} <br />
-                    <span style={{ fontWeight: "bold" }}>Goals:</span>{" "}
-                    {res.goals} <br />
-                    <span style={{ fontWeight: "bold" }}>Trophies:</span>{" "}
-                    {res.trophies} <br />
+                  <Card.Img variant="top" src={res.imgUrl} />
+                  <Card.Title>{res.name}</Card.Title>
+                  <Card.Text>
+                    <span>Nationality:</span> {res.nationality} <br />
+                    <span>Height:</span> {res.height} <br />
+                    <span>Position(s):</span> {res.positions} <br />
+                    <span>Goals:</span> {res.goals} <br />
+                    <span>Trophies:</span> {res.trophies} <br />
                   </Card.Text>
-
                   <Button
                     variant="primary"
-                    style={{ alignSelf: "center", marginBottom: "20px" }}
                     onClick={() => showDetails(res._id)}
                   >
                     Read More...

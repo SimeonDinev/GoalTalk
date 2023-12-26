@@ -46,3 +46,34 @@
   box-shadow: 0px 0px 35px 5px rgba(255, 255, 255, 0.8);
   transition: 0.5s;
 }
+
+#famous-players-card-body > img {
+  height: 330px;
+  flex-shrink: 0;
+  border-radius: 0px;
+}
+
+#famous-players-card-body > div {
+  margin-top: 20px;
+  align-self: center;
+  font-weight: 600;
+  padding: 10px;
+}
+
+#famous-players-card-body > p {
+  margin-right: 10px;
+  padding-left: 10px;
+  margin: 10px;
+  padding: 10px;
+  line-height: 30px;
+  height: 100%;
+}
+
+#famous-players-card-body > p > span {
+  font-weight: bold;
+}
+
+#famous-players-card-body > button {
+  align-self: center;
+  margin-bottom: 20px;
+}
