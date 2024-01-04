@@ -1,51 +1,48 @@
-// import { useState, useEffect } from "react";
-// import * as service from "../../services/newsService";
+import { useState, useEffect } from "react";
+import * as service from "../../services/newsService";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
+import "./News.css";
+
 const News = () => {
-  // const [news, setNews] = useState([]);
+  const [news, setNews] = useState([]);
 
-  // useEffect(() => {
-  //   service.getNews().then(setNews);
-  // }, []);
+  useEffect(() => {
+    service.getNews().then(setNews);
 
-  // console.log(news);
+    return () => {
+      console.log("Component will unmount");
+    };
+  }, []);
+
+  const first10News = news.slice(0, 9);
+
   return (
     <>
-      {/* {news.map((res, index) => (
-        <div key={index}>
-          <h1>{res.title}</h1>
-          <p>{res.short_desc}</p>
-          <img src={res.news_img} alt="news" />
-        </div>
-      ))} */}
-      <Row xs={1} md={2} className="g-4" style={{ margin: "50px 40px " }}>
-        {Array.from({ length: 4 }).map((_, idx) => (
+      <Row
+        xs={1}
+        md={2}
+        xl={3}
+        className="g-5"
+        style={{ margin: "50px 40px " }}
+      >
+        {first10News.map((res, idx) => (
           <Col key={idx}>
-            <Card
-              style={{
-                display: "flex",
-                flexDirection: "row",
-              }}
-            >
+            <Card style={{ height: "100%" }}>
               <Card.Img
                 variant="top"
-                src="https://thumbs.dreamstime.com/z/businessman-icon-incognito-unknown-person-silhouette-man-white-background-vector-illustration-male-profile-picture-112802675.jpg"
+                src={res.news_img}
                 style={{
-                  height: "150px",
-                  width: "100%",
+                  flexShrink: "0",
                   borderBottomLeftRadius: "4px",
+                  borderBottomRightRadius: "4px",
                 }}
               />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </Card.Text>
+                <Card.Title>{res.title}</Card.Title>
+                <Card.Text>{res.short_desc}</Card.Text>
               </Card.Body>
             </Card>
           </Col>
