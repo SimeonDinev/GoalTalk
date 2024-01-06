@@ -15,7 +15,7 @@ const News = () => {
     service.getNews().then(setNews);
     setTimeout(() => {
       setLoading(true);
-    }, 1100);
+    }, 1600);
   }, []);
 
   const first9News = news.slice(0, 9);

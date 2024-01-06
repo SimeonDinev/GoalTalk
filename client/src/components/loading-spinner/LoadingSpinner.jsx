@@ -7,7 +7,6 @@ function LoadingSpinner() {
       variant="dark"
       role="status"
       style={{
-        // marginLeft: "500px",
         height: "300px",
         width: "300px",
         margin: "95px",
