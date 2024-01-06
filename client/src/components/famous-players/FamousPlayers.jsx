@@ -51,7 +51,9 @@ const FamousPlayers = () => {
               <Card id="famous-players-card">
                 <Card.Body id="famous-players-card-body">
                   <Card.Img variant="top" src={res.imgUrl} />
-                  <Card.Title>{res.name}</Card.Title>
+                  <Card.Title id="famous-players-card-body-title">
+                    {res.name}
+                  </Card.Title>
                   <Card.Text>
                     <span>Nationality:</span> {res.nationality} <br />
                     <span>Height:</span> {res.height} <br />
