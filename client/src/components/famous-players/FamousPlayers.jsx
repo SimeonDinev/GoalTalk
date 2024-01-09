@@ -45,7 +45,7 @@ const FamousPlayers = () => {
       <Container fluid id="famous-players-background-container">
         <h1 id="heading-of-famous-players">Legendary football players</h1>
 
-        <Row xs={1} sm={2} md={3} xl={4} className="g-5 p-4">
+        <Row xs={1} sm={2} md={3} xl={4} className="g-5 p-4" style={{}}>
           {players.map((res) => (
             <Col key={res._id}>
               <Card id="famous-players-card">

@@ -12,10 +12,10 @@ const News = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    service.getNews().then(setNews);
-    setTimeout(() => {
+    service.getNews().then((data) => {
+      setNews(data);
       setLoading(true);
-    }, 1600);
+    });
   }, []);
 
   const first9News = news.slice(0, 9);

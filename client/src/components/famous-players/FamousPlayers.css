@@ -1,12 +1,12 @@
 #famous-players-background-container {
   padding: 53px;
+  margin: 0;
   background-color: #c4dce0;
-  box-shadow: 0px 0px 30px 50px rgba(255, 255, 255, 0.6) inset;
 
   box-shadow: 0px 0px 80px 40px rgba(237, 237, 237, 2) inset;
   background: linear-gradient(rgba(206, 205, 205, 0.3), rgba(0, 0, 0, 0.3)),
     url("/images/clubs-container-background.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
