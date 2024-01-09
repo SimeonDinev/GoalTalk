@@ -11,3 +11,12 @@
   font-weight: bold;
   font-size: 28px;
 }
+#login-btn {
+  background-color: #28a745;
+  border-color: #4caf50;
+  color: #fff;
+  padding-bottom: 8.5px;
+}
+#login-btn:hover {
+  background-color: #4caf50;
+}
