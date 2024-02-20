@@ -8,7 +8,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/esm/Button";
 import Menu from "./nav-menu/Menu";
 
-import LogInModal from "./login-modal/LogInModal";
+import LogInModal from "../login-modal/LogInModal";
 import "../navigation/Navigation.css";
 
 const Navigation = () => {

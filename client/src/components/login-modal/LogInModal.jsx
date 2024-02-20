@@ -11,7 +11,7 @@ function LogInModal(props) {
         style={{ paddingRight: "0px" }}
       >
         <Modal.Header closeButton>
-          <Modal.Title>Login</Modal.Title>
+          <Modal.Title>Log-In</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
@@ -29,13 +29,14 @@ function LogInModal(props) {
             </Form.Group>
           </Form>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={props.close}>
-            Close
-          </Button>
-
-          <Button variant="primary" type="submit">
-            Submit
+        <Modal.Footer
+          style={{ display: "flex", justifyContent: "space-between" }}
+        >
+          <Form.Text className="text-muted">
+            Don't have an account yet? <a href="">Sign up</a>
+          </Form.Text>
+          <Button variant="primary" type="submit" style={{ width: "100px" }}>
+            Sign in
           </Button>
         </Modal.Footer>
       </Modal>
