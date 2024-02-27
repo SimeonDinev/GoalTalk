@@ -4,6 +4,7 @@ import React from "react";
 import Card from "./card/Card";
 
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -22,7 +23,12 @@ const Home = () => {
           now for a front-row seat to the beautiful game!
         </p>
 
-        <Button id="home-btn-register" className="align-content-center">
+        <Button
+          id="home-btn-register"
+          className="align-content-center"
+          as={Link}
+          to="/registration-form"
+        >
           Register
         </Button>
       </Container>

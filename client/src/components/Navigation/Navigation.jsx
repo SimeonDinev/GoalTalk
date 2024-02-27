@@ -8,7 +8,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/esm/Button";
 import Menu from "./nav-menu/Menu";
 
-import LogInModal from "../login-modal/LogInModal";
 import "../navigation/Navigation.css";
 
 const Navigation = () => {
@@ -44,7 +43,7 @@ const Navigation = () => {
             </Col>
 
             <Col md={2.5} className="d-flex justify-content-end">
-              <Button id="login-btn" onClick={handleShow}>
+              <Button id="login-btn" as={Link} to="/login">
                 Log-In
               </Button>
             </Col>
