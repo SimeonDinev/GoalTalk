@@ -12,6 +12,7 @@ import Posts from "./components/posts/Posts";
 import ClubHistory from "./components/clubs/history-modal/ClubHistory";
 import LogIn from "./components/login/LogIn";
 import RegistrationForm from "./components/register/RegistrationForm";
+import AuthContext from "./contexts/authContext";
 
 function App() {
   const [auth, setAuth] = useState({});
@@ -20,26 +21,25 @@ function App() {
     console.log(values);
   };
   return (
-    <>
-      <Navigation />
+    <AuthContext.Provider value={{ loginSubmitHandler }}>
+      <>
+        <Navigation />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/clubs" element={<Clubs />} />
-        <Route path="/famous-players" element={<FamousPlayers />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/posts" element={<Posts />} />
-        <Route
-          path="/login"
-          element={<LogIn loginSubmitHandler={loginSubmitHandler} />}
-        />
-        <Route path="/registration-form" element={<RegistrationForm />} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/clubs" element={<Clubs />} />
+          <Route path="/famous-players" element={<FamousPlayers />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/posts" element={<Posts />} />
+          <Route path="/login" element={<LogIn />} />
+          <Route path="/registration-form" element={<RegistrationForm />} />
 
-        <Route path="/clubDetails/:clubId" element={<ClubHistory />} />
-      </Routes>
+          <Route path="/clubDetails/:clubId" element={<ClubHistory />} />
+        </Routes>
 
-      <Footer />
-    </>
+        <Footer />
+      </>
+    </AuthContext.Provider>
   );
 }
 
