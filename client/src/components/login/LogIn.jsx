@@ -1,8 +1,15 @@
+import useForm from "../../hooks/useForm";
+
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
-export default function LogIn() {
+export default function LogIn({ loginSubmitHandler }) {
+  const { values, onChange, onSubmit } = useForm(loginSubmitHandler, {
+    email: "",
+    password: "",
+  });
+
   return (
     <div
       style={{
@@ -13,6 +20,7 @@ export default function LogIn() {
       }}
     >
       <Form
+        onSubmit={onSubmit}
         style={{
           margin: "40px",
           padding: "17px 40px ",
@@ -22,24 +30,30 @@ export default function LogIn() {
         }}
       >
         <h2 style={{ textAlign: "center" }}>Welcome</h2>
-        <Form.Group
-          className="mb-3"
-          controlId="formBasicEmail"
-          style={{ paddingTop: "20px" }}
-        >
+        <Form.Group className="mb-3" style={{ paddingTop: "20px" }}>
           <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Control
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter email"
+            onChange={onChange}
+            value={values.email}
+          />
           <Form.Text className="text-muted">
             We'll never share your email with anyone else.
           </Form.Text>
         </Form.Group>
-        <Form.Group
-          className="mb-3"
-          controlId="formBasicPassword"
-          style={{ paddingTop: "7px" }}
-        >
+        <Form.Group className="mb-3" style={{ paddingTop: "7px" }}>
           <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Enter Password" />
+          <Form.Control
+            id="password"
+            name="password"
+            type="password"
+            placeholder="Enter Password"
+            onChange={onChange}
+            value={values.password}
+          />
         </Form.Group>
         <div
           style={{

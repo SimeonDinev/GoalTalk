@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { useState } from "react";
 
 import Footer from "./components/footer/Footer";
 import Navigation from "./components/navigation/Navigation";
@@ -13,6 +14,11 @@ import LogIn from "./components/login/LogIn";
 import RegistrationForm from "./components/register/RegistrationForm";
 
 function App() {
+  const [auth, setAuth] = useState({});
+
+  const loginSubmitHandler = (values) => {
+    console.log(values);
+  };
   return (
     <>
       <Navigation />
@@ -23,7 +29,10 @@ function App() {
         <Route path="/famous-players" element={<FamousPlayers />} />
         <Route path="/news" element={<News />} />
         <Route path="/posts" element={<Posts />} />
-        <Route path="/login" element={<LogIn />} />
+        <Route
+          path="/login"
+          element={<LogIn loginSubmitHandler={loginSubmitHandler} />}
+        />
         <Route path="/registration-form" element={<RegistrationForm />} />
 
         <Route path="/clubDetails/:clubId" element={<ClubHistory />} />
