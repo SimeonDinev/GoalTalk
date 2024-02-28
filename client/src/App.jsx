@@ -1,5 +1,6 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import { useState } from "react";
+import * as authService from "./services/authService";
 
 import Footer from "./components/footer/Footer";
 import Navigation from "./components/navigation/Navigation";
@@ -15,10 +16,14 @@ import RegistrationForm from "./components/register/RegistrationForm";
 import AuthContext from "./contexts/authContext";
 
 function App() {
+  const navigate = useNavigate();
   const [auth, setAuth] = useState({});
 
-  const loginSubmitHandler = (values) => {
-    console.log(values);
+  const loginSubmitHandler = async (values) => {
+    const result = await authService.login(values.email, values.password);
+
+    setAuth(result);
+    navigate("/");
   };
   return (
     <AuthContext.Provider value={{ loginSubmitHandler }}>
