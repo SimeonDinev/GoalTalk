@@ -20,3 +20,12 @@
 #login-btn:hover {
   background-color: #4caf50;
 }
+#logout-btn {
+  background-color: rgb(244, 13, 13);
+  border-color: rgb(244, 13, 13);
+  color: #fff;
+  padding-bottom: 8.5px;
+}
+#logout-btn:hover {
+  background-color: #f83838;
+}

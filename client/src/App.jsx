@@ -25,8 +25,15 @@ function App() {
     setAuth(result);
     navigate("/");
   };
+
+  const values = {
+    loginSubmitHandler,
+    username: auth.username,
+    email: auth.email,
+    isAuthenticated: !!auth.username,
+  };
   return (
-    <AuthContext.Provider value={{ loginSubmitHandler }}>
+    <AuthContext.Provider value={values}>
       <>
         <Navigation />
 

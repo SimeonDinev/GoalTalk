@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 
 import Container from "react-bootstrap/Container";
@@ -9,12 +9,14 @@ import Button from "react-bootstrap/esm/Button";
 import Menu from "./nav-menu/Menu";
 
 import "../navigation/Navigation.css";
+import AuthContext from "../../contexts/authContext";
 
 const Navigation = () => {
   const [show, setShow] = useState(false);
+  const { isAuthenticated, username } = useContext(AuthContext);
+  console.log(isAuthenticated, username);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   if (show) {
     var htmlElement = document.documentElement;
@@ -42,11 +44,19 @@ const Navigation = () => {
               <Menu />
             </Col>
 
-            <Col md={2.5} className="d-flex justify-content-end">
-              <Button id="login-btn" as={Link} to="/login">
-                Log-In
-              </Button>
-            </Col>
+            {!isAuthenticated && (
+              <Col md={2.5} className="d-flex justify-content-end">
+                <Button id="login-btn" as={Link} to="/login">
+                  Log In
+                </Button>
+              </Col>
+            )}
+
+            {isAuthenticated && (
+              <Col md={2.5} className="d-flex justify-content-end">
+                <Button id="logout-btn">Log Out</Button>
+              </Col>
+            )}
           </Container>
         </Navbar>
       </Row>
