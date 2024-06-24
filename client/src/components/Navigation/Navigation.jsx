@@ -47,7 +47,7 @@ const Navigation = () => {
             {!isAuthenticated && (
               <Col md={2.5} className="d-flex justify-content-end">
                 <Button id="login-btn" as={Link} to="/login">
-                  Log In
+                  Login
                 </Button>
               </Col>
             )}
